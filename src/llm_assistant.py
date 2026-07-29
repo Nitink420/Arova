@@ -7,53 +7,71 @@ import urllib.request
 import time
 import os
 
-OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "llama3.2:1b"
+OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://localhost:11434/api/generate")
+OLLAMA_BASE = OLLAMA_URL.rsplit('/api', 1)[0] if '/api' in OLLAMA_URL else "http://localhost:11434"
+MODEL_NAME = os.environ.get("OLLAMA_MODEL", "llama3.2:1b")
+
+# Approved payload options for Jetson Orin deployment & Docker RAM savings
+JETSON_OPTIONS = {
+    "num_ctx": 1024,      # Keep context small — saves ~500 MB RAM
+    "num_gpu": 1,         # 1 GPU device on Jetson Orin
+    "use_mmap": True,     # Memory-mapped loading for Jetson
+    "temperature": 0.1,
+    "top_p": 0.8,
+    "num_predict": 110,
+    "num_thread": 8
+}
 
 def ensure_ollama_running():
     """
-    Checks if Ollama service is active. If not, auto-starts the Ollama server programmatically in the background.
+    Checks if Ollama service is active. If not, auto-starts the Ollama server programmatically if local.
     """
-    print("[INFO] Checking if Ollama server is running...")
+    print(f"[INFO] Checking if Ollama server is active at {OLLAMA_BASE}...")
     try:
-        # Check if Ollama is listening on localhost:11434
-        with urllib.request.urlopen("http://localhost:11434", timeout=2) as response:
+        with urllib.request.urlopen(OLLAMA_BASE, timeout=2) as response:
             if response.status == 200:
-                print("[INFO] Ollama server is already running.")
+                print("[INFO] Ollama server is active.")
                 return True
     except Exception:
-        print("[INFO] Ollama server is not running. Attempting to start it in the background...")
+        # Check docker bridge fallback IP (172.17.0.1) or localhost auto-start
         try:
-            # On Windows, start 'ollama serve' hidden in background
-            popen_kwargs = {
-                "stdout": subprocess.DEVNULL,
-                "stderr": subprocess.DEVNULL,
-            }
-            if os.name == 'nt':
-                # CREATE_NO_WINDOW = 0x08000000
-                popen_kwargs["creationflags"] = 0x08000000
-                
-            subprocess.Popen(
-                ["ollama", "serve"],
-                **popen_kwargs
-            )
-            
-            # Wait for Ollama to spin up
-            for i in range(10):
-                time.sleep(1)
-                try:
-                    with urllib.request.urlopen("http://localhost:11434", timeout=1) as resp:
-                        if resp.status == 200:
-                            print("[INFO] Ollama server started successfully in the background.")
-                            return True
-                except Exception:
-                    pass
-            print("[WARNING] Ollama serve command was sent, but port 11434 is not active yet.")
-            return False
-        except Exception as e:
-            print(f"[ERROR] Failed to launch Ollama: {e}")
-            return False
+            docker_url = "http://172.17.0.1:11434"
+            with urllib.request.urlopen(docker_url, timeout=1) as resp:
+                if resp.status == 200:
+                    print(f"[INFO] Ollama active on Docker bridge IP {docker_url}.")
+                    return True
+        except Exception:
+            pass
 
+        if "localhost" in OLLAMA_BASE or "127.0.0.1" in OLLAMA_BASE:
+            print("[INFO] Local Ollama server is not running. Attempting to start it in background...")
+            try:
+                popen_kwargs = {
+                    "stdout": subprocess.DEVNULL,
+                    "stderr": subprocess.DEVNULL,
+                }
+                if os.name == 'nt':
+                    popen_kwargs["creationflags"] = 0x08000000
+                    
+                subprocess.Popen(
+                    ["ollama", "serve"],
+                    **popen_kwargs
+                )
+                
+                for _ in range(10):
+                    time.sleep(1)
+                    try:
+                        with urllib.request.urlopen(OLLAMA_BASE, timeout=1) as resp:
+                            if resp.status == 200:
+                                print("[INFO] Ollama server started successfully.")
+                                return True
+                    except Exception:
+                        pass
+            except Exception as e:
+                print(f"[ERROR] Failed to launch Ollama: {e}")
+        else:
+            print(f"[WARNING] Ollama server at {OLLAMA_BASE} is not responding.")
+        return False
 
 
 def build_safe_prompt(arova_report):
@@ -126,12 +144,7 @@ def ask_llama(arova_report):
         "model": MODEL_NAME,
         "prompt": prompt,
         "stream": False,
-        "options": {
-            "temperature": 0.1,
-            "top_p": 0.8,
-            "num_predict": 110,
-            "num_thread": 8
-        }
+        "options": JETSON_OPTIONS
     }
 
     try:
@@ -143,9 +156,19 @@ def ask_llama(arova_report):
         return safety_filter(answer)
 
     except requests.exceptions.ConnectionError:
+        # Fallback to docker bridge IP if localhost fails
+        try:
+            docker_api = "http://172.17.0.1:11434/api/generate"
+            resp = requests.post(docker_api, json=payload, timeout=30)
+            if resp.status_code == 200:
+                answer = resp.json().get("response", "No response from Llama.")
+                return safety_filter(answer)
+        except Exception:
+            pass
+
         return (
             "Ollama server connect nahi ho paaya. "
-            "Please ek PowerShell me run karo: ollama run llama3.2:1b"
+            "Please check Ollama service status or docker bridge connection (172.17.0.1:11434)."
         )
 
     except Exception as e:
@@ -155,6 +178,7 @@ def ask_llama(arova_report):
 def ask_llama_stream(arova_report):
     """
     High-speed Ollama streaming interface (<5 seconds execution).
+    Supports Jetson Orin deployment options & Docker bridge IP (172.17.0.1).
     """
     ensure_ollama_running()
     prompt = build_safe_prompt(arova_report)
@@ -163,16 +187,12 @@ def ask_llama_stream(arova_report):
         "model": MODEL_NAME,
         "prompt": prompt,
         "stream": True,
-        "options": {
-            "temperature": 0.1,
-            "top_p": 0.8,
-            "num_predict": 110,
-            "num_thread": 8
-        }
+        "options": JETSON_OPTIONS
     }
 
+    target_url = OLLAMA_URL
     try:
-        response = requests.post(OLLAMA_URL, json=payload, stream=True, timeout=30)
+        response = requests.post(target_url, json=payload, stream=True, timeout=30)
         response.raise_for_status()
 
         accumulated_text = ""
@@ -188,9 +208,30 @@ def ask_llama_stream(arova_report):
                     yield accumulated_text
 
     except requests.exceptions.ConnectionError:
+        # Try Docker bridge IP fallback (172.17.0.1:11434)
+        try:
+            docker_url = "http://172.17.0.1:11434/api/generate"
+            response = requests.post(docker_url, json=payload, stream=True, timeout=30)
+            response.raise_for_status()
+
+            accumulated_text = ""
+            for line in response.iter_lines():
+                if line:
+                    chunk = json.loads(line.decode('utf-8'))
+                    token = chunk.get("response", "")
+                    accumulated_text += token
+                    done = chunk.get("done", False)
+                    if done:
+                        yield safety_filter(accumulated_text)
+                    else:
+                        yield accumulated_text
+            return
+        except Exception:
+            pass
+
         yield (
             "Ollama server connect nahi ho paaya. "
-            "Please ek PowerShell me run karo: ollama run llama3.2:1b"
+            "Please check Ollama service status or docker bridge connection (172.17.0.1:11434)."
         )
 
     except Exception as e:
