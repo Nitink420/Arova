@@ -1,0 +1,908 @@
+image_path,label,dataset,source_id,hgb,country,age,gender
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_001.png,risk,dataset_1,Image_001,9.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_002.png,risk,dataset_1,Image_002,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_003.png,normal,dataset_1,Image_003,11.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_004.png,normal,dataset_1,Image_004,12.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_005.png,risk,dataset_1,Image_005,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_006.png,normal,dataset_1,Image_006,12.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_007.png,risk,dataset_1,Image_007,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_008.png,normal,dataset_1,Image_008,12.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_009.png,risk,dataset_1,Image_009,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_010.png,risk,dataset_1,Image_010,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_011.png,normal,dataset_1,Image_011,12.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_012.png,normal,dataset_1,Image_012,12.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_013.png,risk,dataset_1,Image_013,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_014.png,normal,dataset_1,Image_014,12.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_015.png,risk,dataset_1,Image_015,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_016.png,risk,dataset_1,Image_016,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_017.png,risk,dataset_1,Image_017,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_018.png,risk,dataset_1,Image_018,10.93,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_019.png,risk,dataset_1,Image_019,10.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_020.png,normal,dataset_1,Image_020,11.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_021.png,risk,dataset_1,Image_021,10.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_022.png,risk,dataset_1,Image_022,10.74,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_023.png,normal,dataset_1,Image_023,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_024.png,normal,dataset_1,Image_024,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_025.png,risk,dataset_1,Image_025,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_026.png,risk,dataset_1,Image_026,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_027.png,normal,dataset_1,Image_027,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_028.png,normal,dataset_1,Image_028,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_029.png,risk,dataset_1,Image_029,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_030.png,risk,dataset_1,Image_030,7.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_031.png,risk,dataset_1,Image_031,6.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_032.png,risk,dataset_1,Image_032,8.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_033.png,risk,dataset_1,Image_033,8.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_034.png,risk,dataset_1,Image_034,8.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_035.png,risk,dataset_1,Image_035,8.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_036.png,risk,dataset_1,Image_036,8.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_037.png,risk,dataset_1,Image_037,8.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_038.png,risk,dataset_1,Image_038,8.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_039.png,risk,dataset_1,Image_039,8.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_040.png,risk,dataset_1,Image_040,8.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_041.png,risk,dataset_1,Image_041,8.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_042.png,risk,dataset_1,Image_042,8.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_043.png,risk,dataset_1,Image_043,8.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_044.png,risk,dataset_1,Image_044,8.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_045.png,risk,dataset_1,Image_045,8.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_046.png,risk,dataset_1,Image_046,8.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_047.png,risk,dataset_1,Image_047,8.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_048.png,risk,dataset_1,Image_048,8.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_049.png,risk,dataset_1,Image_049,8.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_050.png,risk,dataset_1,Image_050,8.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_051.png,risk,dataset_1,Image_051,8.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_052.png,risk,dataset_1,Image_052,8.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_053.png,risk,dataset_1,Image_053,8.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_054.png,risk,dataset_1,Image_054,8.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_055.png,risk,dataset_1,Image_055,8.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_056.png,risk,dataset_1,Image_056,8.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_057.png,risk,dataset_1,Image_057,8.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_058.png,normal,dataset_1,Image_058,11.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_059.png,normal,dataset_1,Image_059,11.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_060.png,normal,dataset_1,Image_060,11.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_061.png,normal,dataset_1,Image_061,11.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_062.png,normal,dataset_1,Image_062,12.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_063.png,normal,dataset_1,Image_063,12.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_064.png,normal,dataset_1,Image_064,12.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_065.png,normal,dataset_1,Image_065,12.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_066.png,risk,dataset_1,Image_066,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_067.png,normal,dataset_1,Image_067,12.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_068.png,risk,dataset_1,Image_068,7.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_069.png,risk,dataset_1,Image_069,8.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_070.png,normal,dataset_1,Image_070,11.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_071.png,normal,dataset_1,Image_071,12.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_072.png,normal,dataset_1,Image_072,11.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_073.png,normal,dataset_1,Image_073,14.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_074.png,risk,dataset_1,Image_074,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_075.png,normal,dataset_1,Image_075,11.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_076.png,risk,dataset_1,Image_076,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_077.png,risk,dataset_1,Image_077,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_078.png,risk,dataset_1,Image_078,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_079.png,risk,dataset_1,Image_079,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_080.png,risk,dataset_1,Image_080,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_081.png,normal,dataset_1,Image_081,11.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_082.png,risk,dataset_1,Image_082,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_083.png,risk,dataset_1,Image_083,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_084.png,risk,dataset_1,Image_084,10.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_085.png,risk,dataset_1,Image_085,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_086.png,risk,dataset_1,Image_086,10.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_087.png,risk,dataset_1,Image_087,10.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_088.png,normal,dataset_1,Image_088,13.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_089.png,risk,dataset_1,Image_089,10.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_090.png,normal,dataset_1,Image_090,13.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_091.png,risk,dataset_1,Image_091,10.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_092.png,risk,dataset_1,Image_092,10.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_093.png,risk,dataset_1,Image_093,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_094.png,risk,dataset_1,Image_094,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_095.png,normal,dataset_1,Image_095,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_096.png,normal,dataset_1,Image_096,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_097.png,normal,dataset_1,Image_097,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_098.png,normal,dataset_1,Image_098,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_099.png,risk,dataset_1,Image_099,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_100.png,normal,dataset_1,Image_100,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_101.png,risk,dataset_1,Image_101,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_102.png,risk,dataset_1,Image_102,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_103.png,normal,dataset_1,Image_103,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_104.png,risk,dataset_1,Image_104,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_105.png,risk,dataset_1,Image_105,10.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_106.png,normal,dataset_1,Image_106,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_107.png,normal,dataset_1,Image_107,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_108.png,normal,dataset_1,Image_108,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_109.png,risk,dataset_1,Image_109,10.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_110.png,risk,dataset_1,Image_110,10.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_111.png,risk,dataset_1,Image_111,10.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_112.png,risk,dataset_1,Image_112,10.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_113.png,normal,dataset_1,Image_113,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_114.png,normal,dataset_1,Image_114,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_115.png,risk,dataset_1,Image_115,10.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_116.png,risk,dataset_1,Image_116,7.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_117.png,normal,dataset_1,Image_117,12.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_118.png,risk,dataset_1,Image_118,7.09,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_119.png,risk,dataset_1,Image_119,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_120.png,risk,dataset_1,Image_120,7.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_121.png,risk,dataset_1,Image_121,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_122.png,risk,dataset_1,Image_122,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_123.png,risk,dataset_1,Image_123,8.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_124.png,normal,dataset_1,Image_124,12.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_125.png,risk,dataset_1,Image_125,8.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_126.png,risk,dataset_1,Image_126,8.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_127.png,risk,dataset_1,Image_127,8.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_128.png,risk,dataset_1,Image_128,8.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_129.png,normal,dataset_1,Image_129,12.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_130.png,normal,dataset_1,Image_130,12.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_131.png,normal,dataset_1,Image_131,12.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_132.png,risk,dataset_1,Image_132,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_133.png,normal,dataset_1,Image_133,12.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_134.png,normal,dataset_1,Image_134,12.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_135.png,normal,dataset_1,Image_135,12.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_136.png,risk,dataset_1,Image_136,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_137.png,normal,dataset_1,Image_137,12.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_138.png,risk,dataset_1,Image_138,8.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_139.png,risk,dataset_1,Image_139,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_140.png,risk,dataset_1,Image_140,8.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_141.png,risk,dataset_1,Image_141,8.95,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_142.png,normal,dataset_1,Image_142,12.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_143.png,normal,dataset_1,Image_143,12.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_144.png,risk,dataset_1,Image_144,9.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_145.png,normal,dataset_1,Image_145,12.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_146.png,risk,dataset_1,Image_146,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_147.png,normal,dataset_1,Image_147,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_148.png,risk,dataset_1,Image_148,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_149.png,risk,dataset_1,Image_149,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_150.png,risk,dataset_1,Image_150,9.98,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_151.png,normal,dataset_1,Image_151,12.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_152.png,risk,dataset_1,Image_152,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_153.png,risk,dataset_1,Image_153,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_154.png,risk,dataset_1,Image_154,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_155.png,risk,dataset_1,Image_155,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_156.png,normal,dataset_1,Image_156,12.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_157.png,normal,dataset_1,Image_157,12.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_158.png,risk,dataset_1,Image_158,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_159.png,risk,dataset_1,Image_159,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_160.png,normal,dataset_1,Image_160,12.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_161.png,risk,dataset_1,Image_161,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_162.png,risk,dataset_1,Image_162,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_163.png,risk,dataset_1,Image_163,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_164.png,risk,dataset_1,Image_164,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_165.png,normal,dataset_1,Image_165,12.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_166.png,risk,dataset_1,Image_166,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_167.png,risk,dataset_1,Image_167,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_168.png,risk,dataset_1,Image_168,5.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_169.png,normal,dataset_1,Image_169,11.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_170.png,risk,dataset_1,Image_170,5.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_171.png,risk,dataset_1,Image_171,7.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_172.png,risk,dataset_1,Image_172,7.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_173.png,normal,dataset_1,Image_173,11.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_174.png,normal,dataset_1,Image_174,11.46,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_175.png,normal,dataset_1,Image_175,11.05,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_176.png,normal,dataset_1,Image_176,13.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_177.png,risk,dataset_1,Image_177,10.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_178.png,normal,dataset_1,Image_178,11.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_179.png,risk,dataset_1,Image_179,3.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_180.png,risk,dataset_1,Image_180,10.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_181.png,risk,dataset_1,Image_181,4.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_182.png,risk,dataset_1,Image_182,10.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_183.png,risk,dataset_1,Image_183,4.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_184.png,normal,dataset_1,Image_184,13.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_185.png,normal,dataset_1,Image_185,13.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_186.png,risk,dataset_1,Image_186,4.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_187.png,risk,dataset_1,Image_187,10.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_188.png,normal,dataset_1,Image_188,11.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_189.png,normal,dataset_1,Image_189,13.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_190.png,risk,dataset_1,Image_190,4.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_191.png,normal,dataset_1,Image_191,13.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_192.png,normal,dataset_1,Image_192,13.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_193.png,risk,dataset_1,Image_193,10.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_194.png,risk,dataset_1,Image_194,10.74,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_195.png,normal,dataset_1,Image_195,13.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_196.png,risk,dataset_1,Image_196,10.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_197.png,normal,dataset_1,Image_197,13.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_198.png,risk,dataset_1,Image_198,10.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_199.png,risk,dataset_1,Image_199,10.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_200.png,risk,dataset_1,Image_200,10.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_201.png,risk,dataset_1,Image_201,10.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_202.png,risk,dataset_1,Image_202,10.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_203.png,risk,dataset_1,Image_203,10.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_204.png,normal,dataset_1,Image_204,13.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_205.png,normal,dataset_1,Image_205,13.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_206.png,risk,dataset_1,Image_206,10.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_207.png,normal,dataset_1,Image_207,13.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_208.png,normal,dataset_1,Image_208,13.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_209.png,risk,dataset_1,Image_209,10.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_210.png,normal,dataset_1,Image_210,11.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_211.png,normal,dataset_1,Image_211,13.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_212.png,normal,dataset_1,Image_212,11.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_213.png,normal,dataset_1,Image_213,13.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_214.png,risk,dataset_1,Image_214,10.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_215.png,normal,dataset_1,Image_215,11.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_216.png,risk,dataset_1,Image_216,10.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_217.png,normal,dataset_1,Image_217,11.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_218.png,normal,dataset_1,Image_218,13.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_219.png,risk,dataset_1,Image_219,10.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_220.png,risk,dataset_1,Image_220,10.41,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_221.png,risk,dataset_1,Image_221,10.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_222.png,normal,dataset_1,Image_222,13.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_223.png,risk,dataset_1,Image_223,10.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_224.png,normal,dataset_1,Image_224,13.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_225.png,normal,dataset_1,Image_225,13.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_226.png,risk,dataset_1,Image_226,10.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_227.png,risk,dataset_1,Image_227,4.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_228.png,risk,dataset_1,Image_228,6.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_229.png,risk,dataset_1,Image_229,6.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_230.png,risk,dataset_1,Image_230,4.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_231.png,risk,dataset_1,Image_231,6.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_232.png,risk,dataset_1,Image_232,6.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_233.png,risk,dataset_1,Image_233,7.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_234.png,risk,dataset_1,Image_234,5.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_235.png,risk,dataset_1,Image_235,7.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_236.png,risk,dataset_1,Image_236,5.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_237.png,risk,dataset_1,Image_237,8.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_238.png,risk,dataset_1,Image_238,5.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_239.png,risk,dataset_1,Image_239,8.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_240.png,risk,dataset_1,Image_240,5.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_241.png,risk,dataset_1,Image_241,8.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_242.png,risk,dataset_1,Image_242,5.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_243.png,risk,dataset_1,Image_243,8.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_244.png,risk,dataset_1,Image_244,6.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_245.png,risk,dataset_1,Image_245,8.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_246.png,risk,dataset_1,Image_246,6.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_247.png,risk,dataset_1,Image_247,8.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_248.png,normal,dataset_1,Image_248,11.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_249.png,normal,dataset_1,Image_249,12.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_250.png,risk,dataset_1,Image_250,6.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_251.png,risk,dataset_1,Image_251,9.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_252.png,risk,dataset_1,Image_252,9.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_253.png,normal,dataset_1,Image_253,11.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_254.png,risk,dataset_1,Image_254,6.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_255.png,risk,dataset_1,Image_255,9.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_256.png,risk,dataset_1,Image_256,6.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_257.png,risk,dataset_1,Image_257,7.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_258.png,risk,dataset_1,Image_258,9.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_259.png,risk,dataset_1,Image_259,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_260.png,risk,dataset_1,Image_260,7.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_261.png,risk,dataset_1,Image_261,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_262.png,risk,dataset_1,Image_262,10.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_263.png,normal,dataset_1,Image_263,11.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_264.png,risk,dataset_1,Image_264,7.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_265.png,risk,dataset_1,Image_265,10.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_266.png,risk,dataset_1,Image_266,7.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_267.png,risk,dataset_1,Image_267,10.52,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_268.png,risk,dataset_1,Image_268,7.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_269.png,risk,dataset_1,Image_269,7.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_270.png,risk,dataset_1,Image_270,7.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_271.png,risk,dataset_1,Image_271,9.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_272.png,risk,dataset_1,Image_272,9.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_273.png,normal,dataset_1,Image_273,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_274.png,risk,dataset_1,Image_274,9.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_275.png,risk,dataset_1,Image_275,10.54,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_276.png,normal,dataset_1,Image_276,12.02,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_277.png,risk,dataset_1,Image_277,5.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_278.png,risk,dataset_1,Image_278,7.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_279.png,risk,dataset_1,Image_279,7.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_280.png,normal,dataset_1,Image_280,11.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_281.png,normal,dataset_1,Image_281,11.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_282.png,normal,dataset_1,Image_282,11.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_283.png,normal,dataset_1,Image_283,11.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_284.png,risk,dataset_1,Image_284,3.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_285.png,risk,dataset_1,Image_285,5.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_286.png,normal,dataset_1,Image_286,11.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_287.png,risk,dataset_1,Image_287,5.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_288.png,normal,dataset_1,Image_288,11.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_289.png,risk,dataset_1,Image_289,3.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_290.png,risk,dataset_1,Image_290,5.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_291.png,risk,dataset_1,Image_291,5.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_292.png,normal,dataset_1,Image_292,11.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_293.png,risk,dataset_1,Image_293,3.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_294.png,risk,dataset_1,Image_294,5.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_295.png,risk,dataset_1,Image_295,6.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_296.png,risk,dataset_1,Image_296,7.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_297.png,normal,dataset_1,Image_297,11.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_298.png,normal,dataset_1,Image_298,11.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_299.png,normal,dataset_1,Image_299,11.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_300.png,risk,dataset_1,Image_300,8.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_301.png,risk,dataset_1,Image_301,8.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_302.png,normal,dataset_1,Image_302,11.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_303.png,normal,dataset_1,Image_303,11.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_304.png,risk,dataset_1,Image_304,8.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_305.png,normal,dataset_1,Image_305,11.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_306.png,risk,dataset_1,Image_306,8.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_307.png,normal,dataset_1,Image_307,11.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_308.png,risk,dataset_1,Image_308,8.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_309.png,risk,dataset_1,Image_309,8.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_310.png,risk,dataset_1,Image_310,8.06,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_311.png,normal,dataset_1,Image_311,11.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_312.png,normal,dataset_1,Image_312,11.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_313.png,normal,dataset_1,Image_313,11.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_314.png,risk,dataset_1,Image_314,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_315.png,risk,dataset_1,Image_315,9.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_316.png,risk,dataset_1,Image_316,6.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_317.png,normal,dataset_1,Image_317,11.16,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_318.png,risk,dataset_1,Image_318,6.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_319.png,normal,dataset_1,Image_319,11.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_320.png,risk,dataset_1,Image_320,8.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_321.png,normal,dataset_1,Image_321,11.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_322.png,risk,dataset_1,Image_322,8.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_323.png,normal,dataset_1,Image_323,11.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_324.png,risk,dataset_1,Image_324,8.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_325.png,normal,dataset_1,Image_325,11.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_326.png,risk,dataset_1,Image_326,8.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_327.png,risk,dataset_1,Image_327,8.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_328.png,risk,dataset_1,Image_328,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_329.png,risk,dataset_1,Image_329,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_330.png,risk,dataset_1,Image_330,10.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_331.png,risk,dataset_1,Image_331,10.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_332.png,risk,dataset_1,Image_332,10.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_333.png,risk,dataset_1,Image_333,10.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_334.png,risk,dataset_1,Image_334,10.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_335.png,risk,dataset_1,Image_335,3.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_336.png,risk,dataset_1,Image_336,10.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_337.png,normal,dataset_1,Image_337,12.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_338.png,risk,dataset_1,Image_338,10.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_339.png,normal,dataset_1,Image_339,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_340.png,normal,dataset_1,Image_340,12.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_341.png,normal,dataset_1,Image_341,12.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_342.png,normal,dataset_1,Image_342,12.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_343.png,normal,dataset_1,Image_343,13.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_344.png,normal,dataset_1,Image_344,12.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_345.png,normal,dataset_1,Image_345,13.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_346.png,normal,dataset_1,Image_346,12.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_347.png,normal,dataset_1,Image_347,13.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_348.png,normal,dataset_1,Image_348,12.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_349.png,normal,dataset_1,Image_349,13.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_350.png,risk,dataset_1,Image_350,9.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_351.png,normal,dataset_1,Image_351,13.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_352.png,normal,dataset_1,Image_352,12.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_353.png,normal,dataset_1,Image_353,13.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_354.png,normal,dataset_1,Image_354,12.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_355.png,normal,dataset_1,Image_355,13.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_356.png,normal,dataset_1,Image_356,12.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_357.png,normal,dataset_1,Image_357,13.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_358.png,risk,dataset_1,Image_358,10.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_359.png,normal,dataset_1,Image_359,12.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_360.png,normal,dataset_1,Image_360,12.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_361.png,normal,dataset_1,Image_361,13.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_362.png,normal,dataset_1,Image_362,12.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_363.png,normal,dataset_1,Image_363,13.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_364.png,normal,dataset_1,Image_364,12.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_365.png,normal,dataset_1,Image_365,13.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_366.png,normal,dataset_1,Image_366,12.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_367.png,normal,dataset_1,Image_367,13.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_368.png,risk,dataset_1,Image_368,10.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_369.png,risk,dataset_1,Image_369,10.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_370.png,normal,dataset_1,Image_370,13.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_371.png,normal,dataset_1,Image_371,13.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_372.png,risk,dataset_1,Image_372,10.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_373.png,normal,dataset_1,Image_373,13.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_374.png,normal,dataset_1,Image_374,13.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_375.png,normal,dataset_1,Image_375,13.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_376.png,normal,dataset_1,Image_376,13.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_377.png,risk,dataset_1,Image_377,10.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_378.png,normal,dataset_1,Image_378,13.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_379.png,normal,dataset_1,Image_379,13.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_380.png,normal,dataset_1,Image_380,13.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_381.png,normal,dataset_1,Image_381,13.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_382.png,normal,dataset_1,Image_382,13.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_383.png,risk,dataset_1,Image_383,7.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_384.png,risk,dataset_1,Image_384,9.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_385.png,risk,dataset_1,Image_385,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_386.png,risk,dataset_1,Image_386,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_387.png,risk,dataset_1,Image_387,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_388.png,risk,dataset_1,Image_388,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_389.png,risk,dataset_1,Image_389,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_390.png,risk,dataset_1,Image_390,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_391.png,risk,dataset_1,Image_391,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_392.png,risk,dataset_1,Image_392,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_393.png,risk,dataset_1,Image_393,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_394.png,normal,dataset_1,Image_394,12.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_395.png,normal,dataset_1,Image_395,12.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_396.png,risk,dataset_1,Image_396,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_397.png,risk,dataset_1,Image_397,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_398.png,risk,dataset_1,Image_398,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_399.png,risk,dataset_1,Image_399,8.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_400.png,risk,dataset_1,Image_400,8.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_401.png,risk,dataset_1,Image_401,8.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_402.png,risk,dataset_1,Image_402,8.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_403.png,risk,dataset_1,Image_403,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_404.png,normal,dataset_1,Image_404,12.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_405.png,risk,dataset_1,Image_405,10.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_406.png,risk,dataset_1,Image_406,10.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_407.png,risk,dataset_1,Image_407,10.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_408.png,risk,dataset_1,Image_408,10.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_409.png,normal,dataset_1,Image_409,11.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_410.png,normal,dataset_1,Image_410,11.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_411.png,risk,dataset_1,Image_411,8.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_412.png,risk,dataset_1,Image_412,8.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_413.png,normal,dataset_1,Image_413,11.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_414.png,normal,dataset_1,Image_414,11.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_415.png,normal,dataset_1,Image_415,11.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_416.png,normal,dataset_1,Image_416,11.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_417.png,normal,dataset_1,Image_417,11.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_418.png,normal,dataset_1,Image_418,11.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_419.png,normal,dataset_1,Image_419,11.72,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_420.png,normal,dataset_1,Image_420,11.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_421.png,normal,dataset_1,Image_421,11.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_422.png,normal,dataset_1,Image_422,11.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_423.png,normal,dataset_1,Image_423,11.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_424.png,normal,dataset_1,Image_424,11.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_425.png,risk,dataset_1,Image_425,8.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_426.png,normal,dataset_1,Image_426,11.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_427.png,risk,dataset_1,Image_427,9.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_428.png,risk,dataset_1,Image_428,10.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_429.png,risk,dataset_1,Image_429,10.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_430.png,normal,dataset_1,Image_430,13.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_431.png,normal,dataset_1,Image_431,13.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_432.png,normal,dataset_1,Image_432,13.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_433.png,normal,dataset_1,Image_433,13.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_434.png,normal,dataset_1,Image_434,13.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_435.png,normal,dataset_1,Image_435,13.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_436.png,normal,dataset_1,Image_436,13.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_437.png,normal,dataset_1,Image_437,13.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_438.png,risk,dataset_1,Image_438,10.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_439.png,risk,dataset_1,Image_439,10.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_440.png,normal,dataset_1,Image_440,13.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_441.png,normal,dataset_1,Image_441,13.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_442.png,risk,dataset_1,Image_442,10.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_443.png,risk,dataset_1,Image_443,10.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_444.png,risk,dataset_1,Image_444,10.64,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_445.png,risk,dataset_1,Image_445,10.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_446.png,risk,dataset_1,Image_446,10.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_447.png,normal,dataset_1,Image_447,14.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_448.png,risk,dataset_1,Image_448,10.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_449.png,normal,dataset_1,Image_449,14.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_450.png,normal,dataset_1,Image_450,14.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_451.png,normal,dataset_1,Image_451,11.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_452.png,normal,dataset_1,Image_452,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_453.png,normal,dataset_1,Image_453,11.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_454.png,normal,dataset_1,Image_454,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_455.png,normal,dataset_1,Image_455,11.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_456.png,normal,dataset_1,Image_456,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_457.png,normal,dataset_1,Image_457,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_458.png,normal,dataset_1,Image_458,12.15,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_459.png,normal,dataset_1,Image_459,12.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_460.png,risk,dataset_1,Image_460,9.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_461.png,risk,dataset_1,Image_461,9.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_462.png,normal,dataset_1,Image_462,12.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_463.png,normal,dataset_1,Image_463,12.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_464.png,normal,dataset_1,Image_464,12.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_465.png,normal,dataset_1,Image_465,12.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_466.png,normal,dataset_1,Image_466,12.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_467.png,normal,dataset_1,Image_467,12.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_468.png,normal,dataset_1,Image_468,12.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_469.png,normal,dataset_1,Image_469,12.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_470.png,normal,dataset_1,Image_470,12.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_471.png,risk,dataset_1,Image_471,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_472.png,normal,dataset_1,Image_472,12.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_473.png,risk,dataset_1,Image_473,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_474.png,normal,dataset_1,Image_474,12.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_475.png,normal,dataset_1,Image_475,12.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_476.png,risk,dataset_1,Image_476,4.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_477.png,risk,dataset_1,Image_477,6.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_478.png,risk,dataset_1,Image_478,6.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_479.png,normal,dataset_1,Image_479,11.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_480.png,risk,dataset_1,Image_480,5.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_481.png,normal,dataset_1,Image_481,11.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_482.png,risk,dataset_1,Image_482,6.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_483.png,normal,dataset_1,Image_483,11.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_484.png,risk,dataset_1,Image_484,6.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_485.png,risk,dataset_1,Image_485,6.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_486.png,normal,dataset_1,Image_486,11.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_487.png,risk,dataset_1,Image_487,6.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_488.png,risk,dataset_1,Image_488,6.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_489.png,risk,dataset_1,Image_489,8.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_490.png,risk,dataset_1,Image_490,8.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_491.png,normal,dataset_1,Image_491,12.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_492.png,risk,dataset_1,Image_492,8.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_493.png,normal,dataset_1,Image_493,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_494.png,risk,dataset_1,Image_494,9.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_495.png,risk,dataset_1,Image_495,9.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_496.png,risk,dataset_1,Image_496,9.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_497.png,risk,dataset_1,Image_497,9.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_498.png,normal,dataset_1,Image_498,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_499.png,risk,dataset_1,Image_499,9.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_500.png,risk,dataset_1,Image_500,9.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_501.png,risk,dataset_1,Image_501,9.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_502.png,risk,dataset_1,Image_502,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_503.png,risk,dataset_1,Image_503,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_504.png,risk,dataset_1,Image_504,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_505.png,risk,dataset_1,Image_505,10.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_506.png,normal,dataset_1,Image_506,13.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_507.png,normal,dataset_1,Image_507,13.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_508.png,normal,dataset_1,Image_508,13.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_509.png,risk,dataset_1,Image_509,10.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_510.png,risk,dataset_1,Image_510,9.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_511.png,risk,dataset_1,Image_511,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_512.png,risk,dataset_1,Image_512,9.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_513.png,risk,dataset_1,Image_513,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_514.png,risk,dataset_1,Image_514,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_515.png,risk,dataset_1,Image_515,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_516.png,risk,dataset_1,Image_516,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_517.png,normal,dataset_1,Image_517,12.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_518.png,risk,dataset_1,Image_518,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_519.png,risk,dataset_1,Image_519,9.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_520.png,risk,dataset_1,Image_520,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_521.png,risk,dataset_1,Image_521,9.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_522.png,normal,dataset_1,Image_522,12.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_523.png,risk,dataset_1,Image_523,9.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_524.png,risk,dataset_1,Image_524,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_525.png,risk,dataset_1,Image_525,9.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_526.png,risk,dataset_1,Image_526,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_527.png,risk,dataset_1,Image_527,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_528.png,risk,dataset_1,Image_528,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_529.png,normal,dataset_1,Image_529,12.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_530.png,risk,dataset_1,Image_530,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_531.png,normal,dataset_1,Image_531,12.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_532.png,risk,dataset_1,Image_532,9.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_533.png,risk,dataset_1,Image_533,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_534.png,risk,dataset_1,Image_534,9.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_535.png,risk,dataset_1,Image_535,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_536.png,risk,dataset_1,Image_536,9.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_537.png,risk,dataset_1,Image_537,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_538.png,normal,dataset_1,Image_538,12.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_539.png,risk,dataset_1,Image_539,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_540.png,risk,dataset_1,Image_540,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_541.png,risk,dataset_1,Image_541,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_542.png,risk,dataset_1,Image_542,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_543.png,normal,dataset_1,Image_543,12.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_544.png,risk,dataset_1,Image_544,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_545.png,risk,dataset_1,Image_545,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_546.png,risk,dataset_1,Image_546,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_547.png,risk,dataset_1,Image_547,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_548.png,risk,dataset_1,Image_548,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_549.png,normal,dataset_1,Image_549,12.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_550.png,normal,dataset_1,Image_550,12.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_551.png,normal,dataset_1,Image_551,12.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_552.png,risk,dataset_1,Image_552,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_553.png,normal,dataset_1,Image_553,12.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_554.png,risk,dataset_1,Image_554,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_555.png,risk,dataset_1,Image_555,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_556.png,risk,dataset_1,Image_556,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_557.png,risk,dataset_1,Image_557,10.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_558.png,normal,dataset_1,Image_558,12.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_559.png,normal,dataset_1,Image_559,12.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_560.png,risk,dataset_1,Image_560,10.01,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_561.png,normal,dataset_1,Image_561,12.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_562.png,risk,dataset_1,Image_562,10.05,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_563.png,risk,dataset_1,Image_563,10.06,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_564.png,risk,dataset_1,Image_564,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_565.png,risk,dataset_1,Image_565,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_566.png,normal,dataset_1,Image_566,12.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_567.png,risk,dataset_1,Image_567,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_568.png,risk,dataset_1,Image_568,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_569.png,risk,dataset_1,Image_569,10.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_570.png,normal,dataset_1,Image_570,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_571.png,normal,dataset_1,Image_571,12.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_572.png,risk,dataset_1,Image_572,9.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_573.png,risk,dataset_1,Image_573,9.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_574.png,risk,dataset_1,Image_574,9.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_575.png,risk,dataset_1,Image_575,7.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_576.png,normal,dataset_1,Image_576,11.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_577.png,risk,dataset_1,Image_577,8.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_578.png,normal,dataset_1,Image_578,11.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_579.png,risk,dataset_1,Image_579,8.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_580.png,risk,dataset_1,Image_580,8.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_581.png,risk,dataset_1,Image_581,9.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_582.png,risk,dataset_1,Image_582,9.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_583.png,risk,dataset_1,Image_583,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_584.png,risk,dataset_1,Image_584,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_585.png,normal,dataset_1,Image_585,13.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_586.png,risk,dataset_1,Image_586,9.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_587.png,normal,dataset_1,Image_587,11.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_588.png,normal,dataset_1,Image_588,11.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_589.png,risk,dataset_1,Image_589,7.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_590.png,normal,dataset_1,Image_590,11.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_591.png,normal,dataset_1,Image_591,11.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_592.png,normal,dataset_1,Image_592,11.52,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_593.png,risk,dataset_1,Image_593,7.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_594.png,risk,dataset_1,Image_594,7.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_595.png,normal,dataset_1,Image_595,11.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_596.png,risk,dataset_1,Image_596,7.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_597.png,risk,dataset_1,Image_597,7.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_598.png,risk,dataset_1,Image_598,7.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_599.png,risk,dataset_1,Image_599,7.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_600.png,normal,dataset_1,Image_600,11.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_601.png,normal,dataset_1,Image_601,11.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_602.png,risk,dataset_1,Image_602,7.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_603.png,risk,dataset_1,Image_603,7.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_604.png,normal,dataset_1,Image_604,11.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_605.png,risk,dataset_1,Image_605,7.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_606.png,risk,dataset_1,Image_606,7.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_607.png,risk,dataset_1,Image_607,7.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_608.png,risk,dataset_1,Image_608,7.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_609.png,risk,dataset_1,Image_609,7.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_610.png,risk,dataset_1,Image_610,7.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_611.png,risk,dataset_1,Image_611,7.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_612.png,risk,dataset_1,Image_612,7.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_613.png,risk,dataset_1,Image_613,7.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_614.png,risk,dataset_1,Image_614,7.89,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_615.png,risk,dataset_1,Image_615,7.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_616.png,risk,dataset_1,Image_616,7.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_617.png,risk,dataset_1,Image_617,7.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_618.png,risk,dataset_1,Image_618,7.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_619.png,risk,dataset_1,Image_619,6.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_620.png,risk,dataset_1,Image_620,6.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_621.png,risk,dataset_1,Image_621,7.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_622.png,risk,dataset_1,Image_622,8.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_623.png,risk,dataset_1,Image_623,8.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_624.png,normal,dataset_1,Image_624,11.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_625.png,risk,dataset_1,Image_625,8.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_626.png,risk,dataset_1,Image_626,8.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_627.png,risk,dataset_1,Image_627,8.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_628.png,risk,dataset_1,Image_628,8.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_629.png,risk,dataset_1,Image_629,8.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_630.png,risk,dataset_1,Image_630,8.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_631.png,risk,dataset_1,Image_631,9.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_632.png,normal,dataset_1,Image_632,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_633.png,risk,dataset_1,Image_633,9.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_634.png,risk,dataset_1,Image_634,9.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_635.png,risk,dataset_1,Image_635,9.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_636.png,risk,dataset_1,Image_636,9.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_637.png,risk,dataset_1,Image_637,9.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_638.png,risk,dataset_1,Image_638,9.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_639.png,risk,dataset_1,Image_639,9.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_640.png,risk,dataset_1,Image_640,8.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_641.png,risk,dataset_1,Image_641,8.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_642.png,risk,dataset_1,Image_642,8.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_643.png,risk,dataset_1,Image_643,8.4,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_644.png,risk,dataset_1,Image_644,8.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_645.png,risk,dataset_1,Image_645,8.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_646.png,risk,dataset_1,Image_646,9.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_647.png,risk,dataset_1,Image_647,9.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_648.png,risk,dataset_1,Image_648,7.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_649.png,risk,dataset_1,Image_649,7.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_650.png,risk,dataset_1,Image_650,7.98,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_651.png,normal,dataset_1,Image_651,11.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_652.png,risk,dataset_1,Image_652,8.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_653.png,normal,dataset_1,Image_653,12.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_654.png,normal,dataset_1,Image_654,12.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_655.png,normal,dataset_1,Image_655,12.01,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_656.png,risk,dataset_1,Image_656,9.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_657.png,risk,dataset_1,Image_657,9.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_658.png,risk,dataset_1,Image_658,9.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_659.png,risk,dataset_1,Image_659,10.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_660.png,risk,dataset_1,Image_660,10.2,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_661.png,normal,dataset_1,Image_661,12.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_662.png,risk,dataset_1,Image_662,10.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_663.png,normal,dataset_1,Image_663,13.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_664.png,normal,dataset_1,Image_664,13.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_665.png,risk,dataset_1,Image_665,10.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_666.png,risk,dataset_1,Image_666,10.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_667.png,risk,dataset_1,Image_667,10.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_668.png,risk,dataset_1,Image_668,10.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_669.png,risk,dataset_1,Image_669,10.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_670.png,risk,dataset_1,Image_670,10.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_671.png,normal,dataset_1,Image_671,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_672.png,normal,dataset_1,Image_672,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_673.png,normal,dataset_1,Image_673,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_674.png,normal,dataset_1,Image_674,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_675.png,risk,dataset_1,Image_675,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_676.png,risk,dataset_1,Image_676,9.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_677.png,normal,dataset_1,Image_677,11.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_678.png,risk,dataset_1,Image_678,8.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_679.png,normal,dataset_1,Image_679,12.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_680.png,risk,dataset_1,Image_680,8.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_681.png,risk,dataset_1,Image_681,8.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_682.png,normal,dataset_1,Image_682,12.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Anemic/Image_683.png,risk,dataset_1,Image_683,8.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_684.png,normal,dataset_1,Image_684,13.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_685.png,normal,dataset_1,Image_685,13.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_686.png,normal,dataset_1,Image_686,13.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_687.png,normal,dataset_1,Image_687,13.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_688.png,normal,dataset_1,Image_688,13.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_689.png,normal,dataset_1,Image_689,14.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_690.png,normal,dataset_1,Image_690,14.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_691.png,normal,dataset_1,Image_691,14.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_692.png,normal,dataset_1,Image_692,14.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_693.png,normal,dataset_1,Image_693,14.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_694.png,normal,dataset_1,Image_694,14.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_695.png,normal,dataset_1,Image_695,14.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_696.png,normal,dataset_1,Image_696,14.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_697.png,normal,dataset_1,Image_697,14.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_698.png,normal,dataset_1,Image_698,14.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_699.png,normal,dataset_1,Image_699,14.9,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_700.png,normal,dataset_1,Image_700,15.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_701.png,normal,dataset_1,Image_701,15.0,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_702.png,normal,dataset_1,Image_702,14.5,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_703.png,normal,dataset_1,Image_703,14.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_704.png,normal,dataset_1,Image_704,14.3,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_705.png,normal,dataset_1,Image_705,14.7,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_706.png,normal,dataset_1,Image_706,12.8,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_707.png,normal,dataset_1,Image_707,11.47,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_708.png,normal,dataset_1,Image_708,11.6,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_709.png,normal,dataset_1,Image_709,12.1,unknown,,
+data/raw/dataset_1/CP-AnemiC dataset/Non-anemic/Image_710.png,normal,dataset_1,Image_710,11.7,unknown,,
+data/raw/dataset_2/DS-anemia/India/1/20200118_164733_forniceal_palpebral.png,normal,dataset_2,India_1,12.2,India,29,M
+data/raw/dataset_2/DS-anemia/India/2/20200124_154320_forniceal_palpebral.png,risk,dataset_2,India_2,8.0,India,36,F
+data/raw/dataset_2/DS-anemia/India/3/20200124_155418_forniceal_palpebral.png,risk,dataset_2,India_3,10.7,India,30,F
+data/raw/dataset_2/DS-anemia/India/4/20200124_160522_forniceal_palpebral.png,risk,dataset_2,India_4,8.3,India,39,F
+data/raw/dataset_2/DS-anemia/India/5/20200124_161452_forniceal_palpebral.png,risk,dataset_2,India_5,7.8,India,29,F
+data/raw/dataset_2/DS-anemia/India/6/20200124_184029_forniceal_palpebral.png,risk,dataset_2,India_6,11.8,India,55,F
+data/raw/dataset_2/DS-anemia/India/7/20200124_202058_forniceal_palpebral.png,risk,dataset_2,India_7,9.2,India,27,F
+data/raw/dataset_2/DS-anemia/India/8/20200124_202947_forniceal_palpebral(1).png,normal,dataset_2,India_8,13.0,India,32,M
+data/raw/dataset_2/DS-anemia/India/8/20200124_202947_forniceal_palpebral.png,normal,dataset_2,India_8,13.0,India,32,M
+data/raw/dataset_2/DS-anemia/India/9/20200131_205917_forniceal_palpebral.png,risk,dataset_2,India_9,11.5,India,32,M
+data/raw/dataset_2/DS-anemia/India/10/20200203_091841_forniceal_palpebral.png,risk,dataset_2,India_10,11.3,India,35,F
+data/raw/dataset_2/DS-anemia/India/11/20200203_094523_forniceal_palpebral.png,normal,dataset_2,India_11,13.2,India,38,M
+data/raw/dataset_2/DS-anemia/India/12/20200203_103722_forniceal_palpebral.png,risk,dataset_2,India_12,10.6,India,75,M
+data/raw/dataset_2/DS-anemia/India/13/20200203_190841_forniceal_palpebral.png,risk,dataset_2,India_13,10.6,India,71,F
+data/raw/dataset_2/DS-anemia/India/14/20200204_154215_forniceal_palpebral.png,risk,dataset_2,India_14,9.1,India,29,F
+data/raw/dataset_2/DS-anemia/India/15/20200204_160737_forniceal_palpebral.png,risk,dataset_2,India_15,10.9,India,30,F
+data/raw/dataset_2/DS-anemia/India/16/20200204_155221_forniceal_palpebral.png,risk,dataset_2,India_16,8.9,India,37,F
+data/raw/dataset_2/DS-anemia/India/17/20200209_122613_forniceal_palpebral.png,risk,dataset_2,India_17,11.5,India,57,M
+data/raw/dataset_2/DS-anemia/India/18/20200209_132714_forniceal_palpebral.png,risk,dataset_2,India_18,10.1,India,32,M
+data/raw/dataset_2/DS-anemia/India/19/20200211_140525_forniceal_palpebral.png,normal,dataset_2,India_19,12.6,India,21,M
+data/raw/dataset_2/DS-anemia/India/20/20200211_143315_forniceal_palpebral.png,risk,dataset_2,India_20,11.9,India,21,M
+data/raw/dataset_2/DS-anemia/India/21/20200211_145200_forniceal_palpebral.png,normal,dataset_2,India_21,14.8,India,21,M
+data/raw/dataset_2/DS-anemia/India/22/20200211_150240_forniceal_palpebral.png,risk,dataset_2,India_22,10.7,India,21,M
+data/raw/dataset_2/DS-anemia/India/23/20200211_155237_forniceal_palpebral.png,risk,dataset_2,India_23,9.8,India,21,F
+data/raw/dataset_2/DS-anemia/India/24/20200212_080100_forniceal_palpebral.png,normal,dataset_2,India_24,13.4,India,23,F
+data/raw/dataset_2/DS-anemia/India/25/20200213_121216_forniceal_palpebral.png,risk,dataset_2,India_25,9.2,India,30,F
+data/raw/dataset_2/DS-anemia/India/26/20200213_120556_forniceal_palpebral.png,risk,dataset_2,India_26,7.6,India,39,F
+data/raw/dataset_2/DS-anemia/India/27/20200213_134128_forniceal_palpebral.png,normal,dataset_2,India_27,12.2,India,48,F
+data/raw/dataset_2/DS-anemia/India/28/20200213_150536_forniceal_palpebral.png,risk,dataset_2,India_28,11.2,India,20,M
+data/raw/dataset_2/DS-anemia/India/29/20200213_151234_forniceal_palpebral.png,normal,dataset_2,India_29,12.4,India,21,M
+data/raw/dataset_2/DS-anemia/India/30/20200213_152136_forniceal_palpebral.png,risk,dataset_2,India_30,11.2,India,21,M
+data/raw/dataset_2/DS-anemia/India/31/20200213_152924_forniceal_palpebral.png,normal,dataset_2,India_31,12.6,India,20,M
+data/raw/dataset_2/DS-anemia/India/32/20200213_153536_forniceal_palpebral.png,risk,dataset_2,India_32,11.3,India,21,M
+data/raw/dataset_2/DS-anemia/India/33/20200213_154129_forniceal_palpebral.png,risk,dataset_2,India_33,11.3,India,21,M
+data/raw/dataset_2/DS-anemia/India/34/20200213_154759_forniceal_palpebral.png,risk,dataset_2,India_34,11.4,India,20,F
+data/raw/dataset_2/DS-anemia/India/35/20200213_155456_001_forniceal_palpebral.png,risk,dataset_2,India_35,8.7,India,21,F
+data/raw/dataset_2/DS-anemia/India/36/20200213_160045_forniceal_palpebral.png,risk,dataset_2,India_36,9.7,India,20,F
+data/raw/dataset_2/DS-anemia/India/37/20200214_123002_forniceal_palpebral.png,normal,dataset_2,India_37,12.7,India,22,M
+data/raw/dataset_2/DS-anemia/India/38/20200214_122915_forniceal_palpebral.png,risk,dataset_2,India_38,11.1,India,21,M
+data/raw/dataset_2/DS-anemia/India/39/20200213_232040_forniceal_palpebral.png,normal,dataset_2,India_39,15.2,India,32,M
+data/raw/dataset_2/DS-anemia/India/40/20200214_121836_forniceal_palpebral.png,risk,dataset_2,India_40,8.2,India,29,F
+data/raw/dataset_2/DS-anemia/India/41/20200214_134745_forniceal_palpebral.png,risk,dataset_2,India_41,11.7,India,50,M
+data/raw/dataset_2/DS-anemia/India/42/20200216_211040_forniceal_palpebral.png,risk,dataset_2,India_42,8.1,India,19,F
+data/raw/dataset_2/DS-anemia/India/43/20200216_210631_forniceal_palpebral.png,normal,dataset_2,India_43,12.6,India,32,M
+data/raw/dataset_2/DS-anemia/India/44/20200216_223744_forniceal_palpebral.png,risk,dataset_2,India_44,9.6,India,62,M
+data/raw/dataset_2/DS-anemia/India/45/20200216_224452_forniceal_palpebral.png,risk,dataset_2,India_45,10.0,India,27,F
+data/raw/dataset_2/DS-anemia/India/46/20200216_231923_forniceal_palpebral.png,risk,dataset_2,India_46,10.0,India,49,F
+data/raw/dataset_2/DS-anemia/India/47/20200216_232931_forniceal_palpebral.png,normal,dataset_2,India_47,14.3,India,29,M
+data/raw/dataset_2/DS-anemia/India/48/20200217_141804_forniceal_palpebral.png,normal,dataset_2,India_48,13.6,India,39,M
+data/raw/dataset_2/DS-anemia/India/49/20200217_152107_forniceal_palpebral.png,risk,dataset_2,India_49,9.7,India,41,F
+data/raw/dataset_2/DS-anemia/India/50/20200217_154641_forniceal_palpebral.png,risk,dataset_2,India_50,8.1,India,33,F
+data/raw/dataset_2/DS-anemia/India/51/20200218_210419_forniceal_palpebral.png,normal,dataset_2,India_51,12.9,India,34,M
+data/raw/dataset_2/DS-anemia/India/52/20200218_221400_forniceal_palpebral.png,normal,dataset_2,India_52,13.4,India,42,M
+data/raw/dataset_2/DS-anemia/India/53/20200218_222325_forniceal_palpebral.png,normal,dataset_2,India_53,13.8,India,32,M
+data/raw/dataset_2/DS-anemia/India/54/20200219_140311_forniceal_palpebral.png,normal,dataset_2,India_54,15.5,India,45,M
+data/raw/dataset_2/DS-anemia/India/55/20200219_180148_forniceal_palpebral.png,risk,dataset_2,India_55,10.5,India,65,M
+data/raw/dataset_2/DS-anemia/India/56/20200219_183506_forniceal_palpebral.png,risk,dataset_2,India_56,8.8,India,55,F
+data/raw/dataset_2/DS-anemia/India/57/20200219_182849_forniceal_palpebral.png,risk,dataset_2,India_57,10.3,India,33,F
+data/raw/dataset_2/DS-anemia/India/58/20200219_195511_forniceal_palpebral.png,normal,dataset_2,India_58,12.5,India,36,M
+data/raw/dataset_2/DS-anemia/India/59/20200219_201501_forniceal_palpebral.png,risk,dataset_2,India_59,10.6,India,31,F
+data/raw/dataset_2/DS-anemia/India/60/20200223_184734_forniceal_palpebral.png,normal,dataset_2,India_60,12.2,India,33,M
+data/raw/dataset_2/DS-anemia/India/61/20200223_185602_forniceal_palpebral.png,risk,dataset_2,India_61,10.8,India,32,F
+data/raw/dataset_2/DS-anemia/India/62/20200223_190638_forniceal_palpebral.png,risk,dataset_2,India_62,11.3,India,27,M
+data/raw/dataset_2/DS-anemia/India/63/20200223_191233_forniceal_palpebral.png,risk,dataset_2,India_63,9.9,India,27,F
+data/raw/dataset_2/DS-anemia/India/64/20200223_191620_forniceal_palpebral.png,risk,dataset_2,India_64,9.2,India,62,F
+data/raw/dataset_2/DS-anemia/India/65/20200223_194457_forniceal_palpebral.png,normal,dataset_2,India_65,13.8,India,32,M
+data/raw/dataset_2/DS-anemia/India/66/20200224_114700_forniceal_palpebral.png,normal,dataset_2,India_66,13.8,India,21,M
+data/raw/dataset_2/DS-anemia/India/67/20200224_115146_forniceal_palpebral.png,normal,dataset_2,India_67,14.0,India,20,M
+data/raw/dataset_2/DS-anemia/India/68/20200224_115853_forniceal_palpebral.png,normal,dataset_2,India_68,12.0,India,21,M
+data/raw/dataset_2/DS-anemia/India/69/20200224_120426_forniceal_palpebral.png,normal,dataset_2,India_69,17.1,India,21,M
+data/raw/dataset_2/DS-anemia/India/70/20200224_123714_forniceal_palpebral.png,risk,dataset_2,India_70,10.6,India,21,F
+data/raw/dataset_2/DS-anemia/India/71/20200224_133633_forniceal_palpebral.png,normal,dataset_2,India_71,15.0,India,20,M
+data/raw/dataset_2/DS-anemia/India/72/20200224_143301_forniceal_palpebral.png,normal,dataset_2,India_72,12.7,India,39,M
+data/raw/dataset_2/DS-anemia/India/73/20200224_144551_forniceal_palpebral.png,normal,dataset_2,India_73,12.3,India,50,F
+data/raw/dataset_2/DS-anemia/India/74/20200224_145301_forniceal_palpebral.png,risk,dataset_2,India_74,9.1,India,37,F
+data/raw/dataset_2/DS-anemia/India/75/20200224_150804_forniceal_palpebral.png,normal,dataset_2,India_75,12.2,India,37,F
+data/raw/dataset_2/DS-anemia/India/76/20200224_150539_forniceal_palpebral.png,risk,dataset_2,India_76,9.3,India,30,F
+data/raw/dataset_2/DS-anemia/India/77/20200224_151450_forniceal_palpebral.png,risk,dataset_2,India_77,8.5,India,48,F
+data/raw/dataset_2/DS-anemia/India/78/20200224_153146_forniceal_palpebral.png,risk,dataset_2,India_78,10.3,India,40,F
+data/raw/dataset_2/DS-anemia/India/79/20200224_162916_forniceal_palpebral.png,normal,dataset_2,India_79,16.4,India,29,M
+data/raw/dataset_2/DS-anemia/India/80/20200224_180925_forniceal_palpebral.png,risk,dataset_2,India_80,10.5,India,50,F
+data/raw/dataset_2/DS-anemia/India/81/20200228_190130_forniceal_palpebral.png,risk,dataset_2,India_81,11.0,India,25,F
+data/raw/dataset_2/DS-anemia/India/82/20200228_190334_forniceal_palpebral.png,risk,dataset_2,India_82,10.9,India,47,F
+data/raw/dataset_2/DS-anemia/India/83/20200224_121621_forniceal_palpebral.png,normal,dataset_2,India_83,13.7,India,21,M
+data/raw/dataset_2/DS-anemia/India/84/20200224_154729_forniceal_palpebral.png,risk,dataset_2,India_84,9.5,India,32,F
+data/raw/dataset_2/DS-anemia/India/85/20200229_205012_forniceal_palpebral.png,normal,dataset_2,India_85,14.5,India,63,M
+data/raw/dataset_2/DS-anemia/India/86/20200229_205445_forniceal_palpebral.png,risk,dataset_2,India_86,8.5,India,30,F
+data/raw/dataset_2/DS-anemia/India/87/20200302_222551_forniceal_palpebral.png,normal,dataset_2,India_87,13.7,India,24,M
+data/raw/dataset_2/DS-anemia/India/88/20200302_223503_forniceal_palpebral.png,normal,dataset_2,India_88,14.2,India,23,M
+data/raw/dataset_2/DS-anemia/India/89/20200302_224240_forniceal_palpebral.png,normal,dataset_2,India_89,13.7,India,23,M
+data/raw/dataset_2/DS-anemia/India/90/20200302_225922_forniceal_palpebral.png,risk,dataset_2,India_90,11.9,India,23,M
+data/raw/dataset_2/DS-anemia/India/91/20200302_231050_forniceal_palpebral.png,normal,dataset_2,India_91,13.4,India,21,M
+data/raw/dataset_2/DS-anemia/India/92/20200312_183626_forniceal_palpebral.png,normal,dataset_2,India_92,13.7,India,55,F
+data/raw/dataset_2/DS-anemia/India/93/20200315_161347_forniceal_palpebral.png,normal,dataset_2,India_93,12.7,India,29,M
+data/raw/dataset_2/DS-anemia/India/94/20200318_130148_forniceal_palpebral.png,risk,dataset_2,India_94,11.1,India,53,F
+data/raw/dataset_2/DS-anemia/India/95/20200318_130225_forniceal_palpebral.png,normal,dataset_2,India_95,12.4,India,32,F
+data/raw/dataset_2/DS-anemia/Italy/2/002_forniceal_palpebral.png,risk,dataset_2,Italy_2,10.2,Italy,77,F
+data/raw/dataset_2/DS-anemia/Italy/3/003_forniceal_palpebral.png,risk,dataset_2,Italy_3,10.7,Italy,52,F
+data/raw/dataset_2/DS-anemia/Italy/4/004__forniceal_palpebral.png,risk,dataset_2,Italy_4,11.7,Italy,73,F
+data/raw/dataset_2/DS-anemia/Italy/5/005_forniceal_palpebral.png,risk,dataset_2,Italy_5,11.6,Italy,74,F
+data/raw/dataset_2/DS-anemia/Italy/6/006_forniceal_palpebral.png,normal,dataset_2,Italy_6,15.0,Italy,77,F
+data/raw/dataset_2/DS-anemia/Italy/7/007_forniceal_palpebral.png,normal,dataset_2,Italy_7,12.0,Italy,72,F
+data/raw/dataset_2/DS-anemia/Italy/8/008_forniceal_palpebral.png,normal,dataset_2,Italy_8,14.3,Italy,84,M
+data/raw/dataset_2/DS-anemia/Italy/9/009_forniceal_palpebral.png,risk,dataset_2,Italy_9,9.8,Italy,61,M
+data/raw/dataset_2/DS-anemia/Italy/10/010_forniceal_palpebral.png,normal,dataset_2,Italy_10,12.2,Italy,70,M
+data/raw/dataset_2/DS-anemia/Italy/11/011_forniceal_palpebral.png,normal,dataset_2,Italy_11,12.0,Italy,81,F
+data/raw/dataset_2/DS-anemia/Italy/12/012_forniceal_palpebral.png,risk,dataset_2,Italy_12,10.0,Italy,88,F
+data/raw/dataset_2/DS-anemia/Italy/13/013_forniceal_palpebral.png,risk,dataset_2,Italy_13,10.5,Italy,82,F
+data/raw/dataset_2/DS-anemia/Italy/14/014_forniceal_palpebral.png,risk,dataset_2,Italy_14,11.4,Italy,65,F
+data/raw/dataset_2/DS-anemia/Italy/15/015_forniceal_palpebral.png,normal,dataset_2,Italy_15,13.3,Italy,86,F
+data/raw/dataset_2/DS-anemia/Italy/16/016_forniceal_palpebral.png,normal,dataset_2,Italy_16,13.5,Italy,55,M
+data/raw/dataset_2/DS-anemia/Italy/17/017_forniceal_palpebral.png,risk,dataset_2,Italy_17,11.0,Italy,78,M
+data/raw/dataset_2/DS-anemia/Italy/18/018_forniceal_palpebral.png,risk,dataset_2,Italy_18,11.75,Italy,77,F
+data/raw/dataset_2/DS-anemia/Italy/19/019_forniceal_palpebral.png,risk,dataset_2,Italy_19,11.0,Italy,65,F
+data/raw/dataset_2/DS-anemia/Italy/20/020_forniceal_palpebral.png,normal,dataset_2,Italy_20,13.62,Italy,30,M
+data/raw/dataset_2/DS-anemia/Italy/21/021_forniceal_palpebral.png,risk,dataset_2,Italy_21,9.82,Italy,46,F
+data/raw/dataset_2/DS-anemia/Italy/22/022_forniceal_palpebral.png,normal,dataset_2,Italy_22,12.6,Italy,65,M
+data/raw/dataset_2/DS-anemia/Italy/23/023_forniceal_palpebral.png,risk,dataset_2,Italy_23,9.6,Italy,57,M
+data/raw/dataset_2/DS-anemia/Italy/24/024_forniceal_palpebral.png,risk,dataset_2,Italy_24,9.2,Italy,56,M
+data/raw/dataset_2/DS-anemia/Italy/25/025_forniceal_palpebral.png,risk,dataset_2,Italy_25,8.7,Italy,53,M
+data/raw/dataset_2/DS-anemia/Italy/26/026_forniceal_palpebral.png,risk,dataset_2,Italy_26,8.6,Italy,60,M
+data/raw/dataset_2/DS-anemia/Italy/27/027_forniceal_palpebral.png,risk,dataset_2,Italy_27,9.35,Italy,59,M
+data/raw/dataset_2/DS-anemia/Italy/28/028_forniceal_palpebral.png,normal,dataset_2,Italy_28,15.45,Italy,22,M
+data/raw/dataset_2/DS-anemia/Italy/29/029_forniceal_palpebral.png,risk,dataset_2,Italy_29,10.93,Italy,76,F
+data/raw/dataset_2/DS-anemia/Italy/30/030_forniceal_palpebral.png,normal,dataset_2,Italy_30,12.68,Italy,70,F
+data/raw/dataset_2/DS-anemia/Italy/31/031_forniceal_palpebral.png,normal,dataset_2,Italy_31,14.77,Italy,54,F
+data/raw/dataset_2/DS-anemia/Italy/32/T_1_20190606_092247_forniceal_palpebral.png,normal,dataset_2,Italy_32,14.1,Italy,40,F
+data/raw/dataset_2/DS-anemia/Italy/33/T_2_20190606_093707_forniceal_palpebral.png,normal,dataset_2,Italy_33,13.9,Italy,34,F
+data/raw/dataset_2/DS-anemia/Italy/34/T_3_20190606_094015_forniceal_palpebral.png,normal,dataset_2,Italy_34,14.1,Italy,53,M
+data/raw/dataset_2/DS-anemia/Italy/36/T_5_20190607_074439_forniceal_palpebral.png,normal,dataset_2,Italy_36,13.9,Italy,51,M
+data/raw/dataset_2/DS-anemia/Italy/37/T_6_20190607_074640_forniceal_palpebral.png,normal,dataset_2,Italy_37,13.6,Italy,51,F
+data/raw/dataset_2/DS-anemia/Italy/38/T_7_20190607_074759_forniceal_palpebral.png,normal,dataset_2,Italy_38,15.4,Italy,56,M
+data/raw/dataset_2/DS-anemia/Italy/39/T_8_20190607_075130_forniceal_palpebral.png,normal,dataset_2,Italy_39,13.7,Italy,47,M
+data/raw/dataset_2/DS-anemia/Italy/40/T_9_20190607_075803_forniceal_palpebral.png,normal,dataset_2,Italy_40,13.3,Italy,46,F
+data/raw/dataset_2/DS-anemia/Italy/41/T_10_20190607_075451_forniceal_palpebral.png,normal,dataset_2,Italy_41,13.9,Italy,36,F
+data/raw/dataset_2/DS-anemia/Italy/42/T_11_20190607_080138_forniceal_palpebral.png,normal,dataset_2,Italy_42,15.0,Italy,49,M
+data/raw/dataset_2/DS-anemia/Italy/43/T_12_20190607_080302_forniceal_palpebral.png,normal,dataset_2,Italy_43,14.7,Italy,59,M
+data/raw/dataset_2/DS-anemia/Italy/44/T_13_20190607_081201_forniceal_palpebral.png,normal,dataset_2,Italy_44,15.4,Italy,26,M
+data/raw/dataset_2/DS-anemia/Italy/45/T_14_20190607_083121_forniceal_palpebral.png,normal,dataset_2,Italy_45,14.9,Italy,50,M
+data/raw/dataset_2/DS-anemia/Italy/46/T_15_20190608_075438_forniceal_palpebral.png,normal,dataset_2,Italy_46,14.1,Italy,58,M
+data/raw/dataset_2/DS-anemia/Italy/47/T_16_20190608_075548_forniceal_palpebral.png,normal,dataset_2,Italy_47,14.1,Italy,20,M
+data/raw/dataset_2/DS-anemia/Italy/48/T_17_20190608_080434_forniceal_palpebral.png,normal,dataset_2,Italy_48,16.1,Italy,29,M
+data/raw/dataset_2/DS-anemia/Italy/49/T_18_20190608_081326_forniceal_palpebral.png,normal,dataset_2,Italy_49,15.1,Italy,33,M
+data/raw/dataset_2/DS-anemia/Italy/50/T_19_20190608_081908_forniceal_palpebral.png,normal,dataset_2,Italy_50,15.3,Italy,40,F
+data/raw/dataset_2/DS-anemia/Italy/51/T_20_20190608_082624_forniceal_palpebral.png,normal,dataset_2,Italy_51,13.9,Italy,54,M
+data/raw/dataset_2/DS-anemia/Italy/52/T_21_20190608_083544_forniceal_palpebral.png,normal,dataset_2,Italy_52,14.4,Italy,24,F
+data/raw/dataset_2/DS-anemia/Italy/55/T_24_20190608_091157_forniceal_palpebral.png,normal,dataset_2,Italy_55,16.9,Italy,34,M
+data/raw/dataset_2/DS-anemia/Italy/56/T_25_20190608_092503_forniceal_palpebral.png,normal,dataset_2,Italy_56,13.2,Italy,24,F
+data/raw/dataset_2/DS-anemia/Italy/57/T_26_20190608_094356_forniceal_palpebral.png,normal,dataset_2,Italy_57,13.5,Italy,51,F
+data/raw/dataset_2/DS-anemia/Italy/61/T_30_20190608_113211_forniceal_palpebral.png,normal,dataset_2,Italy_61,15.0,Italy,50,M
+data/raw/dataset_2/DS-anemia/Italy/62/T_31_20190608_113406_forniceal_palpebral.png,normal,dataset_2,Italy_62,13.0,Italy,40,F
+data/raw/dataset_2/DS-anemia/Italy/63/T_32_20190610_075738_forniceal_palpebral.png,normal,dataset_2,Italy_63,14.9,Italy,54,M
+data/raw/dataset_2/DS-anemia/Italy/64/T_33_20190610_075938_forniceal_palpebral.png,normal,dataset_2,Italy_64,17.4,Italy,52,M
+data/raw/dataset_2/DS-anemia/Italy/65/T_34_20190610_083355_forniceal_palpebral.png,normal,dataset_2,Italy_65,13.8,Italy,63,M
+data/raw/dataset_2/DS-anemia/Italy/66/T_35_20190610_084118_forniceal_palpebral.png,normal,dataset_2,Italy_66,15.9,Italy,55,M
+data/raw/dataset_2/DS-anemia/Italy/67/T_36_20190610_084456_forniceal_palpebral.png,normal,dataset_2,Italy_67,16.2,Italy,48,M
+data/raw/dataset_2/DS-anemia/Italy/68/T_37_20190610_085835_forniceal_palpebral.png,normal,dataset_2,Italy_68,15.5,Italy,55,M
+data/raw/dataset_2/DS-anemia/Italy/81/T_50_20190612_080012_forniceal_palpebral.png,normal,dataset_2,Italy_81,15.6,Italy,64,M
+data/raw/dataset_2/DS-anemia/Italy/82/T_51_20190612_080714_forniceal_palpebral.png,normal,dataset_2,Italy_82,14.8,Italy,24,M
+data/raw/dataset_2/DS-anemia/Italy/83/T_52_20190612_081110_forniceal_palpebral.png,normal,dataset_2,Italy_83,14.8,Italy,25,M
+data/raw/dataset_2/DS-anemia/Italy/84/T_53_20190612_081419_forniceal_palpebral.png,normal,dataset_2,Italy_84,14.9,Italy,46,M
+data/raw/dataset_2/DS-anemia/Italy/85/T_54_20190612_081705_forniceal_palpebral.png,normal,dataset_2,Italy_85,12.4,Italy,42,F
+data/raw/dataset_2/DS-anemia/Italy/86/T_55_20190612_082104_forniceal_palpebral.png,normal,dataset_2,Italy_86,16.9,Italy,48,M
+data/raw/dataset_2/DS-anemia/Italy/87/T_56_20190612_083151_forniceal_palpebral.png,normal,dataset_2,Italy_87,15.6,Italy,51,M
+data/raw/dataset_2/DS-anemia/Italy/88/T_57_20190612_085736_forniceal_palpebral.png,normal,dataset_2,Italy_88,13.7,Italy,38,F
+data/raw/dataset_2/DS-anemia/Italy/89/T_58_20190612_090128_forniceal_palpebral.png,normal,dataset_2,Italy_89,15.4,Italy,44,M
+data/raw/dataset_2/DS-anemia/Italy/90/T_59_20190612_090635_forniceal_palpebral.png,normal,dataset_2,Italy_90,13.0,Italy,21,F
+data/raw/dataset_2/DS-anemia/Italy/91/T_60_20190612_091032_forniceal_palpebral.png,normal,dataset_2,Italy_91,15.4,Italy,41,M
+data/raw/dataset_2/DS-anemia/Italy/92/T_61_20190612_091504_forniceal_palpebral.png,normal,dataset_2,Italy_92,12.3,Italy,52,F
+data/raw/dataset_2/DS-anemia/Italy/94/T_63_20190612_092329_forniceal_palpebral.png,normal,dataset_2,Italy_94,15.2,Italy,34,M
+data/raw/dataset_2/DS-anemia/Italy/96/T_65_20190613_075213_forniceal_palpebral.png,normal,dataset_2,Italy_96,14.7,Italy,45,M
+data/raw/dataset_2/DS-anemia/Italy/97/T_66_20190613_075959_forniceal_palpebral.png,normal,dataset_2,Italy_97,15.1,Italy,49,M
+data/raw/dataset_2/DS-anemia/Italy/98/T_67_20190613_080656_forniceal_palpebral.png,normal,dataset_2,Italy_98,15.2,Italy,54,M
+data/raw/dataset_2/DS-anemia/Italy/99/T_68_20190613_081143_forniceal_palpebral.png,normal,dataset_2,Italy_99,15.5,Italy,44,M
+data/raw/dataset_2/DS-anemia/Italy/100/T_69_20190613_081445_forniceal_palpebral.png,normal,dataset_2,Italy_100,14.5,Italy,63,F
+data/raw/dataset_2/DS-anemia/Italy/101/T_70_20190613_081811_forniceal_palpebral.png,normal,dataset_2,Italy_101,14.0,Italy,28,M
+data/raw/dataset_2/DS-anemia/Italy/102/T_71_20190613_083200_forniceal_palpebral.png,normal,dataset_2,Italy_102,15.8,Italy,40,M
+data/raw/dataset_2/DS-anemia/Italy/103/T_72_20190613_083940_forniceal_palpebral.png,normal,dataset_2,Italy_103,14.1,Italy,59,M
+data/raw/dataset_2/DS-anemia/Italy/104/T_73_20190613_084628_forniceal_palpebral.png,normal,dataset_2,Italy_104,16.5,Italy,45,M
+data/raw/dataset_2/DS-anemia/Italy/105/T_74_20190613_090639_forniceal_palpebral.png,risk,dataset_2,Italy_105,7.0,Italy,26,F
+data/raw/dataset_2/DS-anemia/Italy/106/T_75_20190613_092335_forniceal_palpebral.png,normal,dataset_2,Italy_106,15.5,Italy,68,M
+data/raw/dataset_2/DS-anemia/Italy/107/T_76_20190613_093151_forniceal_palpebral.png,normal,dataset_2,Italy_107,13.0,Italy,40,F
+data/raw/dataset_2/DS-anemia/Italy/108/T_77_20190613_093815_forniceal_palpebral.png,normal,dataset_2,Italy_108,13.5,Italy,21,M
+data/raw/dataset_2/DS-anemia/Italy/110/T_79_20190614_075002_forniceal_palpebral.png,normal,dataset_2,Italy_110,15.8,Italy,45,M
+data/raw/dataset_2/DS-anemia/Italy/111/T_80_20190614_075052_forniceal_palpebral.png,normal,dataset_2,Italy_111,13.1,Italy,37,M
+data/raw/dataset_2/DS-anemia/Italy/112/T_81_20190614_075610_forniceal_palpebral.png,normal,dataset_2,Italy_112,15.4,Italy,57,M
+data/raw/dataset_2/DS-anemia/Italy/113/T_82_20190614_080327_forniceal_palpebral.png,normal,dataset_2,Italy_113,14.0,Italy,58,M
+data/raw/dataset_2/DS-anemia/Italy/114/T_83_20190614_080652_forniceal_palpebral.png,normal,dataset_2,Italy_114,15.1,Italy,39,M
+data/raw/dataset_2/DS-anemia/Italy/115/T_84_20190614_080746_forniceal_palpebral.png,normal,dataset_2,Italy_115,15.4,Italy,43,M
+data/raw/dataset_2/DS-anemia/Italy/116/T_85_20190614_081338_forniceal_palpebral.png,normal,dataset_2,Italy_116,13.7,Italy,28,M
+data/raw/dataset_2/DS-anemia/Italy/117/T_86_20190614_081710_forniceal_palpebral.png,normal,dataset_2,Italy_117,15.1,Italy,47,M
+data/raw/dataset_2/DS-anemia/Italy/118/T_87_20190614_081929_forniceal_palpebral.png,normal,dataset_2,Italy_118,15.2,Italy,48,M
+data/raw/dataset_2/DS-anemia/Italy/119/T_88_20190614_082233_forniceal_palpebral.png,normal,dataset_2,Italy_119,16.7,Italy,41,M
+data/raw/dataset_2/DS-anemia/Italy/120/T_89_20190614_082828_forniceal_palpebral.png,normal,dataset_2,Italy_120,15.4,Italy,22,M
+data/raw/dataset_2/DS-anemia/Italy/121/T_90_20190614_083843_forniceal_palpebral.png,normal,dataset_2,Italy_121,12.8,Italy,40,F
+data/raw/dataset_2/DS-anemia/Italy/122/T_91_20190614_085732_forniceal_palpebral.png,normal,dataset_2,Italy_122,15.7,Italy,33,M
+data/raw/dataset_2/DS-anemia/Italy/123/T_92_20190614_090938_forniceal_palpebral.png,normal,dataset_2,Italy_123,15.6,Italy,48,M

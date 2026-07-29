@@ -1,0 +1,35 @@
+# Python compiled cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Gradio cache
+.gradio/
+
+# Environments / local settings
+env/
+venv/
+.venv/
+conda-env/
+.env
+local_config.py
+
+# Large model weights (transfer separately to the Jetson using SCP)
+models/tts_stt/kokoro/kokoro-v1.0.onnx
+models/tts_stt/kokoro/voices-v1.0.bin
+models/slm/
+
+# Outputs (dynamically generated cache audio clips & report PDFs)
+outputs/audio/cache/
+outputs/audio/dynamic/
+outputs/reports/
+
+# Sandbox / Scratch directory
+scratch/
+
+# Large training datasets
+data/raw/
+data/processed/

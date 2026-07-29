@@ -1,0 +1,198 @@
+image_path,dataset,country,patient_number,hgb,gender,age,note,label
+data/raw/dataset_2/DS-anemia/India/1/20200118_164733_forniceal_palpebral.png,dataset_2,India,1,12.2,M,29,,normal
+data/raw/dataset_2/DS-anemia/India/2/20200124_154320_forniceal_palpebral.png,dataset_2,India,2,8.0,F,36,,risk
+data/raw/dataset_2/DS-anemia/India/3/20200124_155418_forniceal_palpebral.png,dataset_2,India,3,10.7,F,30,,risk
+data/raw/dataset_2/DS-anemia/India/4/20200124_160522_forniceal_palpebral.png,dataset_2,India,4,8.3,F,39,,risk
+data/raw/dataset_2/DS-anemia/India/5/20200124_161452_forniceal_palpebral.png,dataset_2,India,5,7.8,F,29,,risk
+data/raw/dataset_2/DS-anemia/India/6/20200124_184029_forniceal_palpebral.png,dataset_2,India,6,11.8,F,55,,risk
+data/raw/dataset_2/DS-anemia/India/7/20200124_202058_forniceal_palpebral.png,dataset_2,India,7,9.2,F,27,,risk
+data/raw/dataset_2/DS-anemia/India/8/20200124_202947_forniceal_palpebral(1).png,dataset_2,India,8,13.0,M,32,,normal
+data/raw/dataset_2/DS-anemia/India/8/20200124_202947_forniceal_palpebral.png,dataset_2,India,8,13.0,M,32,,normal
+data/raw/dataset_2/DS-anemia/India/9/20200131_205917_forniceal_palpebral.png,dataset_2,India,9,11.5,M,32,,risk
+data/raw/dataset_2/DS-anemia/India/10/20200203_091841_forniceal_palpebral.png,dataset_2,India,10,11.3,F,35,,risk
+data/raw/dataset_2/DS-anemia/India/11/20200203_094523_forniceal_palpebral.png,dataset_2,India,11,13.2,M,38,,normal
+data/raw/dataset_2/DS-anemia/India/12/20200203_103722_forniceal_palpebral.png,dataset_2,India,12,10.6,M,75,,risk
+data/raw/dataset_2/DS-anemia/India/13/20200203_190841_forniceal_palpebral.png,dataset_2,India,13,10.6,F,71,,risk
+data/raw/dataset_2/DS-anemia/India/14/20200204_154215_forniceal_palpebral.png,dataset_2,India,14,9.1,F,29,,risk
+data/raw/dataset_2/DS-anemia/India/15/20200204_160737_forniceal_palpebral.png,dataset_2,India,15,10.9,F,30,,risk
+data/raw/dataset_2/DS-anemia/India/16/20200204_155221_forniceal_palpebral.png,dataset_2,India,16,8.9,F,37,,risk
+data/raw/dataset_2/DS-anemia/India/17/20200209_122613_forniceal_palpebral.png,dataset_2,India,17,11.5,M,57,,risk
+data/raw/dataset_2/DS-anemia/India/18/20200209_132714_forniceal_palpebral.png,dataset_2,India,18,10.1,M,32,,risk
+data/raw/dataset_2/DS-anemia/India/19/20200211_140525_forniceal_palpebral.png,dataset_2,India,19,12.6,M,21,,normal
+data/raw/dataset_2/DS-anemia/India/20/20200211_143315_forniceal_palpebral.png,dataset_2,India,20,11.9,M,21,,risk
+data/raw/dataset_2/DS-anemia/India/21/20200211_145200_forniceal_palpebral.png,dataset_2,India,21,14.8,M,21,,normal
+data/raw/dataset_2/DS-anemia/India/22/20200211_150240_forniceal_palpebral.png,dataset_2,India,22,10.7,M,21,,risk
+data/raw/dataset_2/DS-anemia/India/23/20200211_155237_forniceal_palpebral.png,dataset_2,India,23,9.8,F,21,,risk
+data/raw/dataset_2/DS-anemia/India/24/20200212_080100_forniceal_palpebral.png,dataset_2,India,24,13.4,F,23,,normal
+data/raw/dataset_2/DS-anemia/India/25/20200213_121216_forniceal_palpebral.png,dataset_2,India,25,9.2,F,30,,risk
+data/raw/dataset_2/DS-anemia/India/26/20200213_120556_forniceal_palpebral.png,dataset_2,India,26,7.6,F,39,,risk
+data/raw/dataset_2/DS-anemia/India/27/20200213_134128_forniceal_palpebral.png,dataset_2,India,27,12.2,F,48,,normal
+data/raw/dataset_2/DS-anemia/India/28/20200213_150536_forniceal_palpebral.png,dataset_2,India,28,11.2,M,20,,risk
+data/raw/dataset_2/DS-anemia/India/29/20200213_151234_forniceal_palpebral.png,dataset_2,India,29,12.4,M,21,,normal
+data/raw/dataset_2/DS-anemia/India/30/20200213_152136_forniceal_palpebral.png,dataset_2,India,30,11.2,M,21,,risk
+data/raw/dataset_2/DS-anemia/India/31/20200213_152924_forniceal_palpebral.png,dataset_2,India,31,12.6,M,20,,normal
+data/raw/dataset_2/DS-anemia/India/32/20200213_153536_forniceal_palpebral.png,dataset_2,India,32,11.3,M,21,,risk
+data/raw/dataset_2/DS-anemia/India/33/20200213_154129_forniceal_palpebral.png,dataset_2,India,33,11.3,M,21,,risk
+data/raw/dataset_2/DS-anemia/India/34/20200213_154759_forniceal_palpebral.png,dataset_2,India,34,11.4,F,20,,risk
+data/raw/dataset_2/DS-anemia/India/35/20200213_155456_001_forniceal_palpebral.png,dataset_2,India,35,8.7,F,21,,risk
+data/raw/dataset_2/DS-anemia/India/36/20200213_160045_forniceal_palpebral.png,dataset_2,India,36,9.7,F,20,,risk
+data/raw/dataset_2/DS-anemia/India/37/20200214_123002_forniceal_palpebral.png,dataset_2,India,37,12.7,M,22,,normal
+data/raw/dataset_2/DS-anemia/India/38/20200214_122915_forniceal_palpebral.png,dataset_2,India,38,11.1,M,21,,risk
+data/raw/dataset_2/DS-anemia/India/39/20200213_232040_forniceal_palpebral.png,dataset_2,India,39,15.2,M,32,,normal
+data/raw/dataset_2/DS-anemia/India/40/20200214_121836_forniceal_palpebral.png,dataset_2,India,40,8.2,F,29,,risk
+data/raw/dataset_2/DS-anemia/India/41/20200214_134745_forniceal_palpebral.png,dataset_2,India,41,11.7,M,50,,risk
+data/raw/dataset_2/DS-anemia/India/42/20200216_211040_forniceal_palpebral.png,dataset_2,India,42,8.1,F,19,,risk
+data/raw/dataset_2/DS-anemia/India/43/20200216_210631_forniceal_palpebral.png,dataset_2,India,43,12.6,M,32,,normal
+data/raw/dataset_2/DS-anemia/India/44/20200216_223744_forniceal_palpebral.png,dataset_2,India,44,9.6,M,62,,risk
+data/raw/dataset_2/DS-anemia/India/45/20200216_224452_forniceal_palpebral.png,dataset_2,India,45,10.0,F,27,,risk
+data/raw/dataset_2/DS-anemia/India/46/20200216_231923_forniceal_palpebral.png,dataset_2,India,46,10.0,F,49,,risk
+data/raw/dataset_2/DS-anemia/India/47/20200216_232931_forniceal_palpebral.png,dataset_2,India,47,14.3,M,29,,normal
+data/raw/dataset_2/DS-anemia/India/48/20200217_141804_forniceal_palpebral.png,dataset_2,India,48,13.6,M,39,,normal
+data/raw/dataset_2/DS-anemia/India/49/20200217_152107_forniceal_palpebral.png,dataset_2,India,49,9.7,F,41,,risk
+data/raw/dataset_2/DS-anemia/India/50/20200217_154641_forniceal_palpebral.png,dataset_2,India,50,8.1,F,33,,risk
+data/raw/dataset_2/DS-anemia/India/51/20200218_210419_forniceal_palpebral.png,dataset_2,India,51,12.9,M,34,,normal
+data/raw/dataset_2/DS-anemia/India/52/20200218_221400_forniceal_palpebral.png,dataset_2,India,52,13.4,M,42,,normal
+data/raw/dataset_2/DS-anemia/India/53/20200218_222325_forniceal_palpebral.png,dataset_2,India,53,13.8,M,32,,normal
+data/raw/dataset_2/DS-anemia/India/54/20200219_140311_forniceal_palpebral.png,dataset_2,India,54,15.5,M,45,,normal
+data/raw/dataset_2/DS-anemia/India/55/20200219_180148_forniceal_palpebral.png,dataset_2,India,55,10.5,M,65,,risk
+data/raw/dataset_2/DS-anemia/India/56/20200219_183506_forniceal_palpebral.png,dataset_2,India,56,8.8,F,55,,risk
+data/raw/dataset_2/DS-anemia/India/57/20200219_182849_forniceal_palpebral.png,dataset_2,India,57,10.3,F,33,,risk
+data/raw/dataset_2/DS-anemia/India/58/20200219_195511_forniceal_palpebral.png,dataset_2,India,58,12.5,M,36,,normal
+data/raw/dataset_2/DS-anemia/India/59/20200219_201501_forniceal_palpebral.png,dataset_2,India,59,10.6,F,31,,risk
+data/raw/dataset_2/DS-anemia/India/60/20200223_184734_forniceal_palpebral.png,dataset_2,India,60,12.2,M,33,,normal
+data/raw/dataset_2/DS-anemia/India/61/20200223_185602_forniceal_palpebral.png,dataset_2,India,61,10.8,F,32,,risk
+data/raw/dataset_2/DS-anemia/India/62/20200223_190638_forniceal_palpebral.png,dataset_2,India,62,11.3,M,27,,risk
+data/raw/dataset_2/DS-anemia/India/63/20200223_191233_forniceal_palpebral.png,dataset_2,India,63,9.9,F,27,,risk
+data/raw/dataset_2/DS-anemia/India/64/20200223_191620_forniceal_palpebral.png,dataset_2,India,64,9.2,F,62,,risk
+data/raw/dataset_2/DS-anemia/India/65/20200223_194457_forniceal_palpebral.png,dataset_2,India,65,13.8,M,32,,normal
+data/raw/dataset_2/DS-anemia/India/66/20200224_114700_forniceal_palpebral.png,dataset_2,India,66,13.8,M,21,,normal
+data/raw/dataset_2/DS-anemia/India/67/20200224_115146_forniceal_palpebral.png,dataset_2,India,67,14.0,M,20,,normal
+data/raw/dataset_2/DS-anemia/India/68/20200224_115853_forniceal_palpebral.png,dataset_2,India,68,12.0,M,21,,normal
+data/raw/dataset_2/DS-anemia/India/69/20200224_120426_forniceal_palpebral.png,dataset_2,India,69,17.1,M,21,,normal
+data/raw/dataset_2/DS-anemia/India/70/20200224_123714_forniceal_palpebral.png,dataset_2,India,70,10.6,F,21,,risk
+data/raw/dataset_2/DS-anemia/India/71/20200224_133633_forniceal_palpebral.png,dataset_2,India,71,15.0,M,20,,normal
+data/raw/dataset_2/DS-anemia/India/72/20200224_143301_forniceal_palpebral.png,dataset_2,India,72,12.7,M,39,,normal
+data/raw/dataset_2/DS-anemia/India/73/20200224_144551_forniceal_palpebral.png,dataset_2,India,73,12.3,F,50,,normal
+data/raw/dataset_2/DS-anemia/India/74/20200224_145301_forniceal_palpebral.png,dataset_2,India,74,9.1,F,37,,risk
+data/raw/dataset_2/DS-anemia/India/75/20200224_150804_forniceal_palpebral.png,dataset_2,India,75,12.2,F,37,,normal
+data/raw/dataset_2/DS-anemia/India/76/20200224_150539_forniceal_palpebral.png,dataset_2,India,76,9.3,F,30,,risk
+data/raw/dataset_2/DS-anemia/India/77/20200224_151450_forniceal_palpebral.png,dataset_2,India,77,8.5,F,48,,risk
+data/raw/dataset_2/DS-anemia/India/78/20200224_153146_forniceal_palpebral.png,dataset_2,India,78,10.3,F,40,,risk
+data/raw/dataset_2/DS-anemia/India/79/20200224_162916_forniceal_palpebral.png,dataset_2,India,79,16.4,M,29,,normal
+data/raw/dataset_2/DS-anemia/India/80/20200224_180925_forniceal_palpebral.png,dataset_2,India,80,10.5,F,50,,risk
+data/raw/dataset_2/DS-anemia/India/81/20200228_190130_forniceal_palpebral.png,dataset_2,India,81,11.0,F,25,,risk
+data/raw/dataset_2/DS-anemia/India/82/20200228_190334_forniceal_palpebral.png,dataset_2,India,82,10.9,F,47,,risk
+data/raw/dataset_2/DS-anemia/India/83/20200224_121621_forniceal_palpebral.png,dataset_2,India,83,13.7,M,21,,normal
+data/raw/dataset_2/DS-anemia/India/84/20200224_154729_forniceal_palpebral.png,dataset_2,India,84,9.5,F,32,,risk
+data/raw/dataset_2/DS-anemia/India/85/20200229_205012_forniceal_palpebral.png,dataset_2,India,85,14.5,M,63,,normal
+data/raw/dataset_2/DS-anemia/India/86/20200229_205445_forniceal_palpebral.png,dataset_2,India,86,8.5,F,30,,risk
+data/raw/dataset_2/DS-anemia/India/87/20200302_222551_forniceal_palpebral.png,dataset_2,India,87,13.7,M,24,,normal
+data/raw/dataset_2/DS-anemia/India/88/20200302_223503_forniceal_palpebral.png,dataset_2,India,88,14.2,M,23,,normal
+data/raw/dataset_2/DS-anemia/India/89/20200302_224240_forniceal_palpebral.png,dataset_2,India,89,13.7,M,23,,normal
+data/raw/dataset_2/DS-anemia/India/90/20200302_225922_forniceal_palpebral.png,dataset_2,India,90,11.9,M,23,,risk
+data/raw/dataset_2/DS-anemia/India/91/20200302_231050_forniceal_palpebral.png,dataset_2,India,91,13.4,M,21,,normal
+data/raw/dataset_2/DS-anemia/India/92/20200312_183626_forniceal_palpebral.png,dataset_2,India,92,13.7,F,55,,normal
+data/raw/dataset_2/DS-anemia/India/93/20200315_161347_forniceal_palpebral.png,dataset_2,India,93,12.7,M,29,,normal
+data/raw/dataset_2/DS-anemia/India/94/20200318_130148_forniceal_palpebral.png,dataset_2,India,94,11.1,F,53,,risk
+data/raw/dataset_2/DS-anemia/India/95/20200318_130225_forniceal_palpebral.png,dataset_2,India,95,12.4,F,32,,normal
+data/raw/dataset_2/DS-anemia/Italy/2/002_forniceal_palpebral.png,dataset_2,Italy,2,10.2,F,77,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/3/003_forniceal_palpebral.png,dataset_2,Italy,3,10.7,F,52,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/4/004__forniceal_palpebral.png,dataset_2,Italy,4,11.7,F,73,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/5/005_forniceal_palpebral.png,dataset_2,Italy,5,11.6,F,74,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/6/006_forniceal_palpebral.png,dataset_2,Italy,6,15.0,F,77,da segmentare la forniceale ,normal
+data/raw/dataset_2/DS-anemia/Italy/7/007_forniceal_palpebral.png,dataset_2,Italy,7,12.0,F,72,da segmentare la forniceale ,normal
+data/raw/dataset_2/DS-anemia/Italy/8/008_forniceal_palpebral.png,dataset_2,Italy,8,14.3,M,84,da segmentare la forniceale ,normal
+data/raw/dataset_2/DS-anemia/Italy/9/009_forniceal_palpebral.png,dataset_2,Italy,9,9.8,M,61,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/10/010_forniceal_palpebral.png,dataset_2,Italy,10,12.2,M,70,da segmentare la forniceale ,normal
+data/raw/dataset_2/DS-anemia/Italy/11/011_forniceal_palpebral.png,dataset_2,Italy,11,12.0,F,81,da segmentare la forniceale ,normal
+data/raw/dataset_2/DS-anemia/Italy/12/012_forniceal_palpebral.png,dataset_2,Italy,12,10.0,F,88,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/13/013_forniceal_palpebral.png,dataset_2,Italy,13,10.5,F,82,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/14/014_forniceal_palpebral.png,dataset_2,Italy,14,11.4,F,65,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/15/015_forniceal_palpebral.png,dataset_2,Italy,15,13.3,F,86,da segmentare la forniceale ,normal
+data/raw/dataset_2/DS-anemia/Italy/16/016_forniceal_palpebral.png,dataset_2,Italy,16,13.5,M,55,da segmentare la forniceale ,normal
+data/raw/dataset_2/DS-anemia/Italy/17/017_forniceal_palpebral.png,dataset_2,Italy,17,11.0,M,78,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/18/018_forniceal_palpebral.png,dataset_2,Italy,18,11.75,F,77,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/19/019_forniceal_palpebral.png,dataset_2,Italy,19,11.0,F,65,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/20/020_forniceal_palpebral.png,dataset_2,Italy,20,13.62,M,30,da segmentare la forniceale ,normal
+data/raw/dataset_2/DS-anemia/Italy/21/021_forniceal_palpebral.png,dataset_2,Italy,21,9.82,F,46,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/22/022_forniceal_palpebral.png,dataset_2,Italy,22,12.6,M,65,da segmentare la forniceale ,normal
+data/raw/dataset_2/DS-anemia/Italy/23/023_forniceal_palpebral.png,dataset_2,Italy,23,9.6,M,57,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/24/024_forniceal_palpebral.png,dataset_2,Italy,24,9.2,M,56,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/25/025_forniceal_palpebral.png,dataset_2,Italy,25,8.7,M,53,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/26/026_forniceal_palpebral.png,dataset_2,Italy,26,8.6,M,60,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/27/027_forniceal_palpebral.png,dataset_2,Italy,27,9.35,M,59,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/28/028_forniceal_palpebral.png,dataset_2,Italy,28,15.45,M,22,da segmentare la forniceale ,normal
+data/raw/dataset_2/DS-anemia/Italy/29/029_forniceal_palpebral.png,dataset_2,Italy,29,10.93,F,76,da segmentare la forniceale ,risk
+data/raw/dataset_2/DS-anemia/Italy/30/030_forniceal_palpebral.png,dataset_2,Italy,30,12.68,F,70,da segmentare la forniceale ,normal
+data/raw/dataset_2/DS-anemia/Italy/31/031_forniceal_palpebral.png,dataset_2,Italy,31,14.77,F,54,da segmentare la forniceale ,normal
+data/raw/dataset_2/DS-anemia/Italy/32/T_1_20190606_092247_forniceal_palpebral.png,dataset_2,Italy,32,14.1,F,40,,normal
+data/raw/dataset_2/DS-anemia/Italy/33/T_2_20190606_093707_forniceal_palpebral.png,dataset_2,Italy,33,13.9,F,34,,normal
+data/raw/dataset_2/DS-anemia/Italy/34/T_3_20190606_094015_forniceal_palpebral.png,dataset_2,Italy,34,14.1,M,53,,normal
+data/raw/dataset_2/DS-anemia/Italy/36/T_5_20190607_074439_forniceal_palpebral.png,dataset_2,Italy,36,13.9,M,51,,normal
+data/raw/dataset_2/DS-anemia/Italy/37/T_6_20190607_074640_forniceal_palpebral.png,dataset_2,Italy,37,13.6,F,51,,normal
+data/raw/dataset_2/DS-anemia/Italy/38/T_7_20190607_074759_forniceal_palpebral.png,dataset_2,Italy,38,15.4,M,56,,normal
+data/raw/dataset_2/DS-anemia/Italy/39/T_8_20190607_075130_forniceal_palpebral.png,dataset_2,Italy,39,13.7,M,47,,normal
+data/raw/dataset_2/DS-anemia/Italy/40/T_9_20190607_075803_forniceal_palpebral.png,dataset_2,Italy,40,13.3,F,46,,normal
+data/raw/dataset_2/DS-anemia/Italy/41/T_10_20190607_075451_forniceal_palpebral.png,dataset_2,Italy,41,13.9,F,36,,normal
+data/raw/dataset_2/DS-anemia/Italy/42/T_11_20190607_080138_forniceal_palpebral.png,dataset_2,Italy,42,15.0,M,49,,normal
+data/raw/dataset_2/DS-anemia/Italy/43/T_12_20190607_080302_forniceal_palpebral.png,dataset_2,Italy,43,14.7,M,59,,normal
+data/raw/dataset_2/DS-anemia/Italy/44/T_13_20190607_081201_forniceal_palpebral.png,dataset_2,Italy,44,15.4,M,26,,normal
+data/raw/dataset_2/DS-anemia/Italy/45/T_14_20190607_083121_forniceal_palpebral.png,dataset_2,Italy,45,14.9,M,50,,normal
+data/raw/dataset_2/DS-anemia/Italy/46/T_15_20190608_075438_forniceal_palpebral.png,dataset_2,Italy,46,14.1,M,58,,normal
+data/raw/dataset_2/DS-anemia/Italy/47/T_16_20190608_075548_forniceal_palpebral.png,dataset_2,Italy,47,14.1,M,20,,normal
+data/raw/dataset_2/DS-anemia/Italy/48/T_17_20190608_080434_forniceal_palpebral.png,dataset_2,Italy,48,16.1,M,29,,normal
+data/raw/dataset_2/DS-anemia/Italy/49/T_18_20190608_081326_forniceal_palpebral.png,dataset_2,Italy,49,15.1,M,33,,normal
+data/raw/dataset_2/DS-anemia/Italy/50/T_19_20190608_081908_forniceal_palpebral.png,dataset_2,Italy,50,15.3,F,40,,normal
+data/raw/dataset_2/DS-anemia/Italy/51/T_20_20190608_082624_forniceal_palpebral.png,dataset_2,Italy,51,13.9,M,54,,normal
+data/raw/dataset_2/DS-anemia/Italy/52/T_21_20190608_083544_forniceal_palpebral.png,dataset_2,Italy,52,14.4,F,24,,normal
+data/raw/dataset_2/DS-anemia/Italy/55/T_24_20190608_091157_forniceal_palpebral.png,dataset_2,Italy,55,16.9,M,34,,normal
+data/raw/dataset_2/DS-anemia/Italy/56/T_25_20190608_092503_forniceal_palpebral.png,dataset_2,Italy,56,13.2,F,24,,normal
+data/raw/dataset_2/DS-anemia/Italy/57/T_26_20190608_094356_forniceal_palpebral.png,dataset_2,Italy,57,13.5,F,51,,normal
+data/raw/dataset_2/DS-anemia/Italy/61/T_30_20190608_113211_forniceal_palpebral.png,dataset_2,Italy,61,15.0,M,50,,normal
+data/raw/dataset_2/DS-anemia/Italy/62/T_31_20190608_113406_forniceal_palpebral.png,dataset_2,Italy,62,13.0,F,40,,normal
+data/raw/dataset_2/DS-anemia/Italy/63/T_32_20190610_075738_forniceal_palpebral.png,dataset_2,Italy,63,14.9,M,54,,normal
+data/raw/dataset_2/DS-anemia/Italy/64/T_33_20190610_075938_forniceal_palpebral.png,dataset_2,Italy,64,17.4,M,52,,normal
+data/raw/dataset_2/DS-anemia/Italy/65/T_34_20190610_083355_forniceal_palpebral.png,dataset_2,Italy,65,13.8,M,63,,normal
+data/raw/dataset_2/DS-anemia/Italy/66/T_35_20190610_084118_forniceal_palpebral.png,dataset_2,Italy,66,15.9,M,55,,normal
+data/raw/dataset_2/DS-anemia/Italy/67/T_36_20190610_084456_forniceal_palpebral.png,dataset_2,Italy,67,16.2,M,48,,normal
+data/raw/dataset_2/DS-anemia/Italy/68/T_37_20190610_085835_forniceal_palpebral.png,dataset_2,Italy,68,15.5,M,55,,normal
+data/raw/dataset_2/DS-anemia/Italy/81/T_50_20190612_080012_forniceal_palpebral.png,dataset_2,Italy,81,15.6,M,64,,normal
+data/raw/dataset_2/DS-anemia/Italy/82/T_51_20190612_080714_forniceal_palpebral.png,dataset_2,Italy,82,14.8,M,24,,normal
+data/raw/dataset_2/DS-anemia/Italy/83/T_52_20190612_081110_forniceal_palpebral.png,dataset_2,Italy,83,14.8,M,25,,normal
+data/raw/dataset_2/DS-anemia/Italy/84/T_53_20190612_081419_forniceal_palpebral.png,dataset_2,Italy,84,14.9,M,46,,normal
+data/raw/dataset_2/DS-anemia/Italy/85/T_54_20190612_081705_forniceal_palpebral.png,dataset_2,Italy,85,12.4,F,42,,normal
+data/raw/dataset_2/DS-anemia/Italy/86/T_55_20190612_082104_forniceal_palpebral.png,dataset_2,Italy,86,16.9,M,48,,normal
+data/raw/dataset_2/DS-anemia/Italy/87/T_56_20190612_083151_forniceal_palpebral.png,dataset_2,Italy,87,15.6,M,51,,normal
+data/raw/dataset_2/DS-anemia/Italy/88/T_57_20190612_085736_forniceal_palpebral.png,dataset_2,Italy,88,13.7,F,38,,normal
+data/raw/dataset_2/DS-anemia/Italy/89/T_58_20190612_090128_forniceal_palpebral.png,dataset_2,Italy,89,15.4,M,44,,normal
+data/raw/dataset_2/DS-anemia/Italy/90/T_59_20190612_090635_forniceal_palpebral.png,dataset_2,Italy,90,13.0,F,21,,normal
+data/raw/dataset_2/DS-anemia/Italy/91/T_60_20190612_091032_forniceal_palpebral.png,dataset_2,Italy,91,15.4,M,41,,normal
+data/raw/dataset_2/DS-anemia/Italy/92/T_61_20190612_091504_forniceal_palpebral.png,dataset_2,Italy,92,12.3,F,52,,normal
+data/raw/dataset_2/DS-anemia/Italy/94/T_63_20190612_092329_forniceal_palpebral.png,dataset_2,Italy,94,15.2,M,34,,normal
+data/raw/dataset_2/DS-anemia/Italy/96/T_65_20190613_075213_forniceal_palpebral.png,dataset_2,Italy,96,14.7,M,45,,normal
+data/raw/dataset_2/DS-anemia/Italy/97/T_66_20190613_075959_forniceal_palpebral.png,dataset_2,Italy,97,15.1,M,49,,normal
+data/raw/dataset_2/DS-anemia/Italy/98/T_67_20190613_080656_forniceal_palpebral.png,dataset_2,Italy,98,15.2,M,54,,normal
+data/raw/dataset_2/DS-anemia/Italy/99/T_68_20190613_081143_forniceal_palpebral.png,dataset_2,Italy,99,15.5,M,44,,normal
+data/raw/dataset_2/DS-anemia/Italy/100/T_69_20190613_081445_forniceal_palpebral.png,dataset_2,Italy,100,14.5,F,63,,normal
+data/raw/dataset_2/DS-anemia/Italy/101/T_70_20190613_081811_forniceal_palpebral.png,dataset_2,Italy,101,14.0,M,28,,normal
+data/raw/dataset_2/DS-anemia/Italy/102/T_71_20190613_083200_forniceal_palpebral.png,dataset_2,Italy,102,15.8,M,40,,normal
+data/raw/dataset_2/DS-anemia/Italy/103/T_72_20190613_083940_forniceal_palpebral.png,dataset_2,Italy,103,14.1,M,59,,normal
+data/raw/dataset_2/DS-anemia/Italy/104/T_73_20190613_084628_forniceal_palpebral.png,dataset_2,Italy,104,16.5,M,45,,normal
+data/raw/dataset_2/DS-anemia/Italy/105/T_74_20190613_090639_forniceal_palpebral.png,dataset_2,Italy,105,7.0,F,26,,risk
+data/raw/dataset_2/DS-anemia/Italy/106/T_75_20190613_092335_forniceal_palpebral.png,dataset_2,Italy,106,15.5,M,68,,normal
+data/raw/dataset_2/DS-anemia/Italy/107/T_76_20190613_093151_forniceal_palpebral.png,dataset_2,Italy,107,13.0,F,40,,normal
+data/raw/dataset_2/DS-anemia/Italy/108/T_77_20190613_093815_forniceal_palpebral.png,dataset_2,Italy,108,13.5,M,21,,normal
+data/raw/dataset_2/DS-anemia/Italy/110/T_79_20190614_075002_forniceal_palpebral.png,dataset_2,Italy,110,15.8,M,45,,normal
+data/raw/dataset_2/DS-anemia/Italy/111/T_80_20190614_075052_forniceal_palpebral.png,dataset_2,Italy,111,13.1,M,37,,normal
+data/raw/dataset_2/DS-anemia/Italy/112/T_81_20190614_075610_forniceal_palpebral.png,dataset_2,Italy,112,15.4,M,57,,normal
+data/raw/dataset_2/DS-anemia/Italy/113/T_82_20190614_080327_forniceal_palpebral.png,dataset_2,Italy,113,14.0,M,58,,normal
+data/raw/dataset_2/DS-anemia/Italy/114/T_83_20190614_080652_forniceal_palpebral.png,dataset_2,Italy,114,15.1,M,39,,normal
+data/raw/dataset_2/DS-anemia/Italy/115/T_84_20190614_080746_forniceal_palpebral.png,dataset_2,Italy,115,15.4,M,43,,normal
+data/raw/dataset_2/DS-anemia/Italy/116/T_85_20190614_081338_forniceal_palpebral.png,dataset_2,Italy,116,13.7,M,28,,normal
+data/raw/dataset_2/DS-anemia/Italy/117/T_86_20190614_081710_forniceal_palpebral.png,dataset_2,Italy,117,15.1,M,47,,normal
+data/raw/dataset_2/DS-anemia/Italy/118/T_87_20190614_081929_forniceal_palpebral.png,dataset_2,Italy,118,15.2,M,48,,normal
+data/raw/dataset_2/DS-anemia/Italy/119/T_88_20190614_082233_forniceal_palpebral.png,dataset_2,Italy,119,16.7,M,41,,normal
+data/raw/dataset_2/DS-anemia/Italy/120/T_89_20190614_082828_forniceal_palpebral.png,dataset_2,Italy,120,15.4,M,22,,normal
+data/raw/dataset_2/DS-anemia/Italy/121/T_90_20190614_083843_forniceal_palpebral.png,dataset_2,Italy,121,12.8,F,40,,normal
+data/raw/dataset_2/DS-anemia/Italy/122/T_91_20190614_085732_forniceal_palpebral.png,dataset_2,Italy,122,15.7,M,33,,normal
+data/raw/dataset_2/DS-anemia/Italy/123/T_92_20190614_090938_forniceal_palpebral.png,dataset_2,Italy,123,15.6,M,48,,normal
