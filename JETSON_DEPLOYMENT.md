@@ -1,115 +1,81 @@
-# 🚀 AROVA — NVIDIA Jetson Orin / Nano Deployment Guide
+# 🚀 AROVA — AIProff Jetson Deployment Guide
 
-Complete step-by-step guide to deploy AROVA on an **NVIDIA Jetson Orin / Nano** edge device over SSH.
-
----
-
-## 📋 Prerequisites
-
-| Requirement | Specification |
-|:---|:---|
-| **Hardware** | NVIDIA Jetson Orin Nano / Orin NX / AGX Orin |
-| **OS / JetPack** | NVIDIA JetPack 6.x / 5.x (Ubuntu 22.04 LTS / 20.04 LTS) |
-| **CUDA PyTorch** | Pre-installed via NVIDIA JetPack wheels |
-| **Network** | Same Wi-Fi / Hotspot network as your laptop |
-| **SSH Access** | SSH credentials (e.g. `nvidia@192.168.x.x`) |
+Complete step-by-step deployment guide specifically tailored for **AIProff Jetson Terminal**.
 
 ---
 
-## ⚡ Step-by-Step Deployment Flow
+## ⚡ Fast Track — One-Line Copy-Paste Commands
 
-```
-Laptop (Browser)                       NVIDIA Jetson Orin (Edge AI)
-┌────────────────┐                    ┌────────────────────────────┐
-│ Chrome / Edge  │                    │ AROVA Backend              │
-│                │ ── SSH Connect ──► │  ├── PyTorch CUDA          │
-│ Open URL:      │                    │  ├── MobileNetV3 + Grad-CAM│
-│ http://IP:7860 │ ◄── HTTP Server ── │  └── Kokoro ONNX + Whisper │
-└────────────────┘                    └────────────────────────────┘
-```
-
----
-
-## 🛠️ Step 1: Connect to Jetson via SSH
-
-From your laptop terminal (macOS/Linux/Windows PowerShell):
+Open your **AIProff Jetson Terminal** and paste these commands in sequence:
 
 ```bash
-# Replace <JETSON_IP> with your Jetson's local IP address
-ssh nvidia@<JETSON_IP>
-```
+# 1. Clone AROVA Repository & enter project folder
+git clone https://github.com/Nitink420/Arova.git && cd Arova
 
-> **Tip:** To find your Jetson's IP address, run `ifconfig` or `ip a` on the Jetson, or check your Wi-Fi router dashboard / hotspot connected devices list.
+# 2. Run automated Jetson installer (Installs dependencies without overwriting JetPack CUDA PyTorch)
+chmod +x install_jetson.sh && ./install_jetson.sh
+
+# 3. Create configuration file (.env)
+cp .env.example .env
+
+# 4. Launch AROVA Healthcare Assistant
+chmod +x run_jetson.sh && ./run_jetson.sh
+```
 
 ---
 
-## 📥 Step 2: Clone AROVA Repository
+## 📖 Step-by-Step Detailed Breakdown
 
-Once logged into your Jetson terminal:
-
+### Step 1: Clone Repository
 ```bash
-cd ~
 git clone https://github.com/Nitink420/Arova.git
 cd Arova
 ```
 
 ---
 
-## ⚙️ Step 3: Run Jetson Automated Installer
-
-Execute the built-in Jetson installer script. This script verifies CUDA PyTorch and installs all Python dependencies without overwriting JetPack's CUDA drivers:
-
+### Step 2: Install Jetson Dependencies
+Run `install_jetson.sh` to install Gradio, OpenCV, NumPy, FPDF, and Kokoro/Whisper engines:
 ```bash
 chmod +x install_jetson.sh
 ./install_jetson.sh
 ```
 
-> ⚠️ **CRITICAL NOTE:** DO NOT run `pip install torch torchvision`. JetPack comes pre-installed with CUDA-accelerated PyTorch. Running standard `pip install torch` will overwrite it with a CPU-only version.
+> ⚠️ **CRITICAL NOTE:** Do NOT run `pip install torch torchvision`. JetPack comes pre-installed with CUDA-accelerated PyTorch. `install_jetson.sh` safely preserves CUDA acceleration.
 
 ---
 
-## 📝 Step 4: Configure Environment (`.env`)
-
-Copy `.env.example` to `.env` and set Jetson configuration:
-
+### Step 3: Setup Environment (`.env`)
+Create the `.env` file from example:
 ```bash
 cp .env.example .env
-nano .env
 ```
 
-Ensure the following variables are configured in `.env`:
-
+If you need to edit AIProff Ollama API URL or custom settings:
+```bash
+nano .env
+```
+Default configuration pre-configured in `.env`:
 ```env
-# Set environment to Jetson mode
 ENVIRONMENT=jetson
-
-# Force CUDA GPU acceleration (or auto)
 DEVICE=cuda
-
-# Configure AIProff Ollama API Server (or local Jetson Ollama)
-OLLAMA_API_URL=http://<AIPROFF_SERVER_IP>:11434
+OLLAMA_API_URL=http://127.0.0.1:11434
 OLLAMA_MODEL=llama3.2:1b
-
-# Bind to 0.0.0.0 for network access across laptops/mobiles
 GRADIO_HOST=0.0.0.0
 GRADIO_PORT=7860
 GRADIO_SHARE=true
 ```
-
-Save and exit (`Ctrl+O`, `Enter`, `Ctrl+X`).
+Save with `Ctrl+O`, `Enter`, and exit with `Ctrl+X`.
 
 ---
 
-## 🚀 Step 5: Launch AROVA on Jetson
-
-Run the Jetson launcher script:
-
+### Step 4: Launch AROVA
 ```bash
 chmod +x run_jetson.sh
 ./run_jetson.sh
 ```
 
-Upon launching, the terminal will display a clear startup banner:
+When AROVA starts up, the terminal will print:
 
 ```text
 ====================================================================
@@ -119,59 +85,44 @@ Upon launching, the terminal will display a clear startup banner:
    👉 http://127.0.0.1:7860
 
 📱 Jetson SSH / Wi-Fi Network Link (Open this in your laptop browser):
-   👉 http://192.168.1.50:7860  (Works 100% Offline!)
+   👉 http://10.217.190.66:7860  (Works 100% Offline!)
 
 💡 Tip for Jetson SSH Users:
-   If using SSH, paste 'http://192.168.1.50:7860' in your laptop browser
+   If using SSH, paste 'http://10.217.190.66:7860' in your laptop browser
 ====================================================================
 ```
 
 ---
 
-## 🌐 Step 6: Access Dashboard on Laptop Browser
+## 🌐 Opening the Dashboard in Your Browser
 
-1. Open **Chrome / Edge / Safari** on your laptop.
-2. Enter your Jetson's IP address:
-   ```text
-   http://<JETSON_IP>:7860
-   ```
-   *(Example: `http://192.168.1.50:7860`)*
-3. The full AROVA Multilingual Screening Dashboard will load instantly!
+1. Copy the network link displayed in the terminal:  
+   👉 **`http://<JETSON_IP>:7860`** *(Example: `http://10.217.190.66:7860`)*
+2. Open **Chrome / Edge / Safari** on your laptop.
+3. Paste the URL into the address bar and press **Enter**.
+4. The full AROVA Multilingual Screening Dashboard will load!
 
 ---
 
-## 🔑 SSH Port Forwarding (Alternative Method)
+## 🏎️ Performance Boost Commands (For Hackathon Demo)
 
-If direct IP browsing is restricted by firewall, use **SSH Port Forwarding** from your laptop:
-
-```bash
-# Run this on your laptop terminal:
-ssh -L 7860:localhost:7860 nvidia@<JETSON_IP>
-```
-
-Now open **`http://127.0.0.1:7860`** directly in your laptop browser!
-
----
-
-## 🏎️ Jetson Performance Tuning
-
-To maximize inference speed during demo:
+To ensure maximum GPU speed and lowest latency during your demo:
 
 ```bash
 # 1. Set Jetson to Maximum Performance Mode (MAXN)
 sudo nvpmodel -m 0
 
-# 2. Lock GPU/CPU clocks to maximum frequencies
+# 2. Lock CPU and GPU clocks to maximum frequencies
 sudo jetson_clocks
 ```
 
 ---
 
-## ❓ Troubleshooting
+## ❓ Common Troubleshooting
 
-| Issue | Cause | Solution |
+| Problem | Cause | Solution |
 |:---|:---|:---|
-| `CUDA available: False` | Standard PyTorch installed | Re-install NVIDIA PyTorch wheel for JetPack |
-| Browser shows `Site can't be reached` | `GRADIO_HOST` set to `127.0.0.1` | Set `GRADIO_HOST=0.0.0.0` in `.env` |
-| Ollama timeout | Remote server IP unreachable | Check ping to `OLLAMA_API_URL` server |
-| Out of memory (OOM) | Memory exhausted | Close unused processes or run `sudo jetson_clocks` |
+| **Port 7860 in use** | Previous instance still running | Run `fuser -k 7860/tcp` to free port |
+| **CUDA not detected** | PyTorch imported incorrectly | Run `./install_jetson.sh` to verify CUDA |
+| **Cannot open URL in browser** | Laptop not on same network | Connect laptop and Jetson to same Wi-Fi/Hotspot |
+| **Ollama timeout** | Local/remote Ollama not started | Verify `OLLAMA_API_URL` in `.env` |
