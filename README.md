@@ -247,10 +247,11 @@ ollama run llama3.2:1b
 
 > 🛡️ **Graceful Fallback:** If the API server is unreachable, AROVA automatically switches to localized rule-based summary generation — ensuring 100% crash-free operation.
 
-### 3. Run AROVA
-```bash
-python app/main.py
-```
+### 4. NVIDIA Jetson Deployment
+For deploying on **NVIDIA Jetson Orin / Nano** over SSH:
+- Follow the step-by-step [JETSON_DEPLOYMENT.md](file:///e:/Arova/JETSON_DEPLOYMENT.md) guide.
+- Quick setup: `chmod +x install_jetson.sh && ./install_jetson.sh && ./run_jetson.sh`
+
 
 ### ⚡ Auto-Bootstrap
 - **TTS weights** (325MB Kokoro ONNX) auto-download on first launch
