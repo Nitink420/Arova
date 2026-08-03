@@ -1,32 +1,33 @@
-# 🚀 AROVA — AIProff Web Terminal Jetson Deployment Guide
+# 🚀 AROVA — AIProff Jetson Simple Deployment Guide
 
-Complete deployment guide for running AROVA inside **AIProff Browser-based Web Terminal**.
+Simple step-by-step terminal commands to deploy AROVA on AIProff Jetson.
 
 ---
 
-## ⚡ Fast Track — Copy-Paste Commands
+## ⚡ 4-Step Quick Commands
 
-Open your **AIProff Browser Terminal** tab and run these commands:
+Copy and paste these commands step-by-step into your terminal:
 
 ```bash
-# 1. Clone AROVA Repository & enter project folder
-git clone https://github.com/Nitink420/Arova.git && cd Arova
+# Step 1: Clone repository & enter folder
+git clone https://github.com/Nitink420/Arova.git
+cd Arova
 
-# 2. Run automated Jetson installer (Installs dependencies without overwriting JetPack CUDA PyTorch)
-chmod +x install_jetson.sh && ./install_jetson.sh
+# Step 2: Install dependencies for Jetson
+pip install -r requirements-jetson.txt
 
-# 3. Create configuration file (.env)
+# Step 3: Create configuration file
 cp .env.example .env
 
-# 4. Launch AROVA Healthcare Assistant
-chmod +x run_jetson.sh && ./run_jetson.sh
+# Step 4: Run AROVA
+python app/main.py
 ```
 
 ---
 
-## 🌐 How to Open the Dashboard on Your Browser
+## 🌐 Opening AROVA in Your Browser
 
-When running inside AIProff's Web Terminal, Gradio will print a **Gradio Live Public Link**:
+When `python app/main.py` finishes starting up, the terminal will print:
 
 ```text
 ====================================================================
@@ -40,85 +41,15 @@ Running on public URL: https://a1b2c3d4e5f6.gradio.live
 ====================================================================
 ```
 
-### 🎯 Steps to Open:
-1. Look for the `https://xxxxxx.gradio.live` link in the terminal output.
+### Steps to open:
+1. Copy the `https://xxxxxx.gradio.live` link from the terminal.
 2. Open a **new tab** in your browser.
-3. Paste the `https://xxxxxx.gradio.live` URL and press **Enter**.
-4. The full AROVA Multilingual Screening Dashboard will load!
+3. Paste the URL and press **Enter**.
+4. The full AROVA Multilingual Healthcare Assistant will open!
 
 ---
 
-## 📖 Step-by-Step Detailed Breakdown
+## 💡 Notes for Jetson Deployment
 
-### Step 1: Clone Repository
-```bash
-git clone https://github.com/Nitink420/Arova.git
-cd Arova
-```
-
----
-
-### Step 2: Install Jetson Dependencies
-Run `install_jetson.sh` to set up Gradio, OpenCV, NumPy, FPDF, Kokoro ONNX, and Whisper:
-```bash
-chmod +x install_jetson.sh
-./install_jetson.sh
-```
-
-> ⚠️ **CRITICAL NOTE:** Do NOT run `pip install torch torchvision`. JetPack comes pre-installed with CUDA-accelerated PyTorch. `install_jetson.sh` safely preserves CUDA acceleration.
-
----
-
-### Step 3: Setup Environment (`.env`)
-Create the `.env` file from example:
-```bash
-cp .env.example .env
-```
-
-If you need to edit AIProff Ollama API URL or custom settings:
-```bash
-nano .env
-```
-Default configuration pre-configured in `.env`:
-```env
-ENVIRONMENT=jetson
-DEVICE=cuda
-OLLAMA_API_URL=http://127.0.0.1:11434
-OLLAMA_MODEL=llama3.2:1b
-GRADIO_HOST=0.0.0.0
-GRADIO_PORT=7860
-GRADIO_SHARE=true
-```
-
----
-
-### Step 4: Launch AROVA
-```bash
-chmod +x run_jetson.sh
-./run_jetson.sh
-```
-
----
-
-## 🏎️ Performance Boost Commands (For Hackathon Demo)
-
-To ensure maximum GPU speed during your demo:
-
-```bash
-# 1. Set Jetson to Maximum Performance Mode (MAXN)
-sudo nvpmodel -m 0
-
-# 2. Lock CPU and GPU clocks to maximum frequencies
-sudo jetson_clocks
-```
-
----
-
-## ❓ Common Troubleshooting
-
-| Problem | Cause | Solution |
-|:---|:---|:---|
-| **Port 7860 in use** | Previous instance still running | Run `fuser -k 7860/tcp` to free port |
-| **CUDA not detected** | PyTorch imported incorrectly | Run `./install_jetson.sh` to verify CUDA |
-| **Gradio share link slow** | Tunnel starting up | Wait 5 seconds for `gradio.live` link to appear |
-| **Ollama timeout** | Local/remote Ollama not started | Verify `OLLAMA_API_URL` in `.env` |
+- **`requirements-jetson.txt`** is specially designed for Jetson: it installs all packages (Gradio, OpenCV, Kokoro TTS, Whisper STT) **without touching NVIDIA's pre-installed CUDA PyTorch**.
+- If port 7860 is busy, free it with: `fuser -k 7860/tcp`
