@@ -1,12 +1,12 @@
-# 🚀 AROVA — AIProff Jetson Deployment Guide
+# 🚀 AROVA — AIProff Web Terminal Jetson Deployment Guide
 
-Complete step-by-step deployment guide specifically tailored for **AIProff Jetson Terminal**.
+Complete deployment guide for running AROVA inside **AIProff Browser-based Web Terminal**.
 
 ---
 
-## ⚡ Fast Track — One-Line Copy-Paste Commands
+## ⚡ Fast Track — Copy-Paste Commands
 
-Open your **AIProff Jetson Terminal** and paste these commands in sequence:
+Open your **AIProff Browser Terminal** tab and run these commands:
 
 ```bash
 # 1. Clone AROVA Repository & enter project folder
@@ -24,6 +24,30 @@ chmod +x run_jetson.sh && ./run_jetson.sh
 
 ---
 
+## 🌐 How to Open the Dashboard on Your Browser
+
+When running inside AIProff's Web Terminal, Gradio will print a **Gradio Live Public Link**:
+
+```text
+====================================================================
+🚀 AROVA IS ONLINE & READY (JETSON MODE)
+====================================================================
+Running on local URL: http://0.0.0.0:7860
+Running on public URL: https://a1b2c3d4e5f6.gradio.live
+
+💡 Open the Public Link in a new tab on your browser:
+   👉 https://a1b2c3d4e5f6.gradio.live
+====================================================================
+```
+
+### 🎯 Steps to Open:
+1. Look for the `https://xxxxxx.gradio.live` link in the terminal output.
+2. Open a **new tab** in your browser.
+3. Paste the `https://xxxxxx.gradio.live` URL and press **Enter**.
+4. The full AROVA Multilingual Screening Dashboard will load!
+
+---
+
 ## 📖 Step-by-Step Detailed Breakdown
 
 ### Step 1: Clone Repository
@@ -35,7 +59,7 @@ cd Arova
 ---
 
 ### Step 2: Install Jetson Dependencies
-Run `install_jetson.sh` to install Gradio, OpenCV, NumPy, FPDF, and Kokoro/Whisper engines:
+Run `install_jetson.sh` to set up Gradio, OpenCV, NumPy, FPDF, Kokoro ONNX, and Whisper:
 ```bash
 chmod +x install_jetson.sh
 ./install_jetson.sh
@@ -65,7 +89,6 @@ GRADIO_HOST=0.0.0.0
 GRADIO_PORT=7860
 GRADIO_SHARE=true
 ```
-Save with `Ctrl+O`, `Enter`, and exit with `Ctrl+X`.
 
 ---
 
@@ -75,38 +98,11 @@ chmod +x run_jetson.sh
 ./run_jetson.sh
 ```
 
-When AROVA starts up, the terminal will print:
-
-```text
-====================================================================
-🚀 AROVA IS ONLINE & READY (JETSON MODE)
-====================================================================
-💻 Local PC Link (If running directly on this laptop):
-   👉 http://127.0.0.1:7860
-
-📱 Jetson SSH / Wi-Fi Network Link (Open this in your laptop browser):
-   👉 http://10.217.190.66:7860  (Works 100% Offline!)
-
-💡 Tip for Jetson SSH Users:
-   If using SSH, paste 'http://10.217.190.66:7860' in your laptop browser
-====================================================================
-```
-
----
-
-## 🌐 Opening the Dashboard in Your Browser
-
-1. Copy the network link displayed in the terminal:  
-   👉 **`http://<JETSON_IP>:7860`** *(Example: `http://10.217.190.66:7860`)*
-2. Open **Chrome / Edge / Safari** on your laptop.
-3. Paste the URL into the address bar and press **Enter**.
-4. The full AROVA Multilingual Screening Dashboard will load!
-
 ---
 
 ## 🏎️ Performance Boost Commands (For Hackathon Demo)
 
-To ensure maximum GPU speed and lowest latency during your demo:
+To ensure maximum GPU speed during your demo:
 
 ```bash
 # 1. Set Jetson to Maximum Performance Mode (MAXN)
@@ -124,5 +120,5 @@ sudo jetson_clocks
 |:---|:---|:---|
 | **Port 7860 in use** | Previous instance still running | Run `fuser -k 7860/tcp` to free port |
 | **CUDA not detected** | PyTorch imported incorrectly | Run `./install_jetson.sh` to verify CUDA |
-| **Cannot open URL in browser** | Laptop not on same network | Connect laptop and Jetson to same Wi-Fi/Hotspot |
+| **Gradio share link slow** | Tunnel starting up | Wait 5 seconds for `gradio.live` link to appear |
 | **Ollama timeout** | Local/remote Ollama not started | Verify `OLLAMA_API_URL` in `.env` |
