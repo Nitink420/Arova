@@ -66,12 +66,16 @@ class VisionService:
         Returns:
             Unloaded MobileNetV3-Small model.
         """
-        try:
-            model = models.mobilenet_v3_small(
-                weights=models.MobileNet_V3_Small_Weights.DEFAULT
-            )
-        except Exception:
+        model_path = Path(self.config.MODEL_PATH)
+        if model_path.exists():
             model = models.mobilenet_v3_small(weights=None)
+        else:
+            try:
+                model = models.mobilenet_v3_small(
+                    weights=models.MobileNet_V3_Small_Weights.DEFAULT
+                )
+            except Exception:
+                model = models.mobilenet_v3_small(weights=None)
 
         in_features = model.classifier[3].in_features
         model.classifier[3] = nn.Linear(in_features, 2)

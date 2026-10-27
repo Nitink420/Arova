@@ -20,7 +20,9 @@ local_config.py
 # Large model weights (transfer separately to the Jetson using SCP)
 models/tts_stt/kokoro/kokoro-v1.0.onnx
 models/tts_stt/kokoro/voices-v1.0.bin
+models/tts_stt/whisper/
 models/slm/
+*.pt
 
 # Outputs (dynamically generated cache audio clips & report PDFs)
 outputs/audio/cache/

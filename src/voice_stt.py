@@ -10,8 +10,14 @@ def load_whisper_model():
 
     if _model is None:
         import os
-        import ssl
-        import urllib.request
+        from pathlib import Path
+
+        # Priority 1: Check bundled model path in project directory
+        project_root = Path(__file__).resolve().parents[1]
+        bundled_path = project_root / "models" / "tts_stt" / "whisper" / "tiny.pt"
+        if bundled_path.exists():
+            _model = whisper.load_model(str(bundled_path))
+            return _model
 
         cache_dir = os.path.expanduser("~/.cache/whisper")
         os.makedirs(cache_dir, exist_ok=True)
@@ -19,9 +25,10 @@ def load_whisper_model():
 
         if not os.path.exists(model_path):
             print(f"[INFO] Whisper model weights not found at {model_path}. Downloading...")
-            url = "https://openaipublic.azureedge.net/main/whisper/models/65147635de6e866e1162d0dd0034f40933cd7f00f6ee4c1b4c68b941fd1a829f/tiny.pt"
+            url = "https://openaipublic.azureedge.net/main/whisper/models/65147644a518d12f04e32d6f3b26facc3f8dd46e5390956a9424a650c0ce22b9/tiny.pt"
             try:
-                # Bypass local SSL proxy/handshake decryption block
+                import urllib.request
+                import ssl
                 context = ssl._create_unverified_context()
                 req = urllib.request.Request(
                     url, 
@@ -39,9 +46,10 @@ def load_whisper_model():
     return _model
 
 
-def transcribe_audio(audio_path):
+def transcribe_audio(audio_path, lang=None):
     """
     Audio file ko text me convert karta hai.
+    Supports offline execution without requiring external ffmpeg installation.
     """
 
     if audio_path is None:
@@ -54,10 +62,33 @@ def transcribe_audio(audio_path):
     try:
         model = load_whisper_model()
 
+        # Try loading with soundfile first for zero-ffmpeg dependency
+        audio_input = audio_path
+        try:
+            import soundfile as sf
+            import numpy as np
+            data, sr = sf.read(audio_path, dtype="float32")
+            if data.ndim > 1:
+                data = data.mean(axis=1)  # Convert stereo to mono
+            # Resample to 16000 Hz if needed
+            if sr != 16000:
+                import scipy.signal
+                num_samples = int(len(data) * 16000 / sr)
+                data = scipy.signal.resample(data, num_samples).astype(np.float32)
+            audio_input = data
+        except Exception:
+            # Fall back to passing path directly to whisper (requires ffmpeg)
+            audio_input = audio_path
+
+        transcribe_args = {
+            "fp16": False,
+        }
+        if lang:
+            transcribe_args["language"] = lang
+
         result = model.transcribe(
-            audio_path,
-            fp16=False,
-            language="hi"
+            audio_input,
+            **transcribe_args
         )
 
         text = result.get("text", "").strip()

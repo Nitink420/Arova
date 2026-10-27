@@ -181,7 +181,7 @@ def main():
     demo.launch(
         server_name=config.GRADIO_HOST,
         server_port=config.GRADIO_PORT,
-        share=config.GRADIO_SHARE,
+        share=True,
         allowed_paths=[str(PROJECT_ROOT)],
         css=custom_css,
     )

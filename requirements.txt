@@ -39,5 +39,8 @@ kokoro-onnx>=0.4.0
 espeakng-loader>=0.1.0
 phonemizer>=3.2.0
 
+# ── Offline QR Triage ──────────────────────────────
+qrcode>=7.4.2
+
 # ── Piper TTS (fallback) ─────────────────────────────
 # piper-tts  # Uncomment if Piper is needed as TTS fallback

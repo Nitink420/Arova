@@ -18,10 +18,15 @@ def build_model():
     0 = normal
     1 = risk
     """
-    try:
-        model = models.mobilenet_v3_small(weights=models.MobileNet_V3_Small_Weights.DEFAULT)
-    except Exception:
+    model_path = Path(MODEL_PATH)
+    if model_path.exists():
+        # Checkpoint exists: load architecture without remote weights check (100% offline & instant)
         model = models.mobilenet_v3_small(weights=None)
+    else:
+        try:
+            model = models.mobilenet_v3_small(weights=models.MobileNet_V3_Small_Weights.DEFAULT)
+        except Exception:
+            model = models.mobilenet_v3_small(weights=None)
 
     in_features = model.classifier[3].in_features
     model.classifier[3] = nn.Linear(in_features, 2)
@@ -174,15 +179,21 @@ def predict_image(image_path, model=None, has_symptoms=True):
 
     image_rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)
 
-    # Smart Crop: Only if image is large (uncropped full camera photo).
-    # Avoids double cropping pre-cropped images from the web/cropped files.
-    h, w, _ = image_rgb.shape
-    if h > 800 or w > 800:
-        from src.roi_utils import center_crop_lower_region
-        image_rgb = center_crop_lower_region(image_rgb, crop_ratio=0.45)
-        print(f"[INFO] Large image detected ({w}x{h}); auto-cropped lower-region conjunctiva ROI.")
+    # 1. Sclera-Referenced Color Calibration (Neutralize room/flash lighting bias)
+    from src.roi_utils import sclera_white_balance_calibration, compute_erythema_index, center_crop_lower_region
+    calibrated_rgb, sclera_meta = sclera_white_balance_calibration(image_rgb)
+    erythema_idx = compute_erythema_index(calibrated_rgb)
 
-    image_enhanced = enhance_image_rgb(image_rgb)
+    # 2. Smart Crop: Only if image is large (uncropped full camera photo).
+    # Avoids double cropping pre-cropped images from the web/cropped files.
+    h, w, _ = calibrated_rgb.shape
+    if h > 800 or w > 800:
+        processed_rgb = center_crop_lower_region(calibrated_rgb, crop_ratio=0.45)
+        print(f"[INFO] Large image detected ({w}x{h}); auto-cropped lower-region conjunctiva ROI.")
+    else:
+        processed_rgb = calibrated_rgb
+
+    image_enhanced = enhance_image_rgb(processed_rgb)
     image = Image.fromarray(image_enhanced)
 
     x = transform(image).unsqueeze(0).to(DEVICE)
@@ -209,6 +220,8 @@ def predict_image(image_path, model=None, has_symptoms=True):
         "hb_test_priority": priority_data["priority"],
         "risk_wording": priority_data["risk_wording"],
         "recommendation": priority_data["recommendation"],
+        "erythema_index": erythema_idx,
+        "sclera_calibration": sclera_meta,
         "safety": (
             "This is a preliminary screening result, not a final diagnosis. "
             "Please confirm with a clinical hemoglobin blood test."

@@ -68,6 +68,10 @@ def build_professional_report(patient_data: dict, vision_result: dict, symptom_r
         unique_care.append("Ensure regular sleep cycles and rest.")
         unique_care.append("Stay hydrated by drinking 8-10 glasses of clean water daily.")
 
+    # 3b. Calculate Estimated Hb & Anemia Mukt Bharat Protocol
+    from src.basic_care_engine import calculate_estimated_hb
+    hb_data = calculate_estimated_hb(risk_percent=risk_percent, symptoms=symptoms_list)
+
     # 4. Assemble report dictionary for PDF and other files
     report_dict = {
         "name": name,
@@ -76,6 +80,12 @@ def build_professional_report(patient_data: dict, vision_result: dict, symptom_r
         "hb_test_priority": hb_test_priority,
         "risk_percent": risk_percent,
         "risk_wording": risk_wording,
+        "estimated_hb": hb_data["hb_display"],
+        "amb_grade": hb_data["amb_grade"],
+        "amb_badge": hb_data["amb_badge"],
+        "amb_action": hb_data["amb_action"],
+        "amb_ifa_protocol": hb_data["amb_ifa_protocol"],
+        "amb_color": hb_data["amb_color"],
         "care_guidance": "\n".join([f"- {c}" for c in unique_care] + [f"- {d}" for d in unique_diet]),
         "severe_present": len(severe_symptoms) > 0
     }
@@ -106,9 +116,13 @@ def build_professional_report(patient_data: dict, vision_result: dict, symptom_r
 
 ---
 
-### 2. Screening Summary
+### 2. Screening Summary & AMB Clinical Triage
 * **Eye Image Risk Probability:** **`{risk_percent:.1f}%`** (Based on lower eyelid conjunctiva photo)
+* **Estimated Hemoglobin (Hb):** **`{hb_data['hb_display']}`**
+* **National AMB Protocol Grade:** <span style="background-color:{hb_data['amb_color']}; color:#ffffff; padding:4px 10px; border-radius:4px; font-weight:bold; font-size: 0.9em;">{hb_data['amb_badge']}</span>
 * **Hb-Test Recommendation Priority:** <span style="background-color:{priority_badge_color}; color:#ffffff; padding:4px 10px; border-radius:4px; font-weight:bold; font-size: 0.9em;">{hb_test_priority.upper()}</span>
+* **Recommended Clinical Action:** {hb_data['amb_action']}
+* **IFA Protocol:** *{hb_data['amb_ifa_protocol']}*
 * **Screening Explanation:** {risk_wording}
 
 ---

@@ -71,23 +71,58 @@ class Config:
         ]
         self.AUTO_DETECT_LANGUAGE = self._parse_bool("AUTO_DETECT_LANGUAGE", False)
 
+        # Non-fatal configuration problems, logged later by services
+        # (Config cannot use the logger directly without a circular import).
+        self.CONFIG_WARNINGS = []
+
+        # ── LLM Backend Selection ────────────────────────────────
+        # "ollama" = offline on-device models, "gemini" = Gemma 4 via Gemini API
+        # (falls back to Ollama, then rule engine, if the API call fails).
+        backend = os.environ.get("LLM_BACKEND", "ollama").strip().lower()
+        if backend not in ("ollama", "gemini"):
+            self.CONFIG_WARNINGS.append(
+                f"Unknown LLM_BACKEND '{backend}', using 'ollama'."
+            )
+            backend = "ollama"
+        self.LLM_BACKEND = backend
+
         # ── Ollama LLM Configuration ─────────────────────────────
         self.OLLAMA_API_URL = os.environ.get(
             "OLLAMA_API_URL", "http://127.0.0.1:11434"
         ).strip().rstrip("/")
-        self.OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "llama3.2:1b").strip()
+        models_raw = os.environ.get("OLLAMA_MODELS", "gemma3:1b,llama3.2:1b")
+        self.OLLAMA_MODELS = [m.strip() for m in models_raw.split(",") if m.strip()]
+        if not self.OLLAMA_MODELS:
+            self.OLLAMA_MODELS = ["gemma3:1b", "llama3.2:1b"]
+        # Active offline model (switchable at runtime; must be in OLLAMA_MODELS)
+        self.OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "gemma3:1b").strip()
+        if self.OLLAMA_MODEL not in self.OLLAMA_MODELS:
+            self.CONFIG_WARNINGS.append(
+                f"OLLAMA_MODEL '{self.OLLAMA_MODEL}' is not in OLLAMA_MODELS "
+                f"{self.OLLAMA_MODELS}; using '{self.OLLAMA_MODELS[0]}'."
+            )
+            self.OLLAMA_MODEL = self.OLLAMA_MODELS[0]
         self.OLLAMA_TIMEOUT = int(os.environ.get("OLLAMA_TIMEOUT", "30"))
 
         # Ollama inference options
         self.OLLAMA_OPTIONS = {
-            "num_ctx": int(os.environ.get("OLLAMA_NUM_CTX", "1024")),
+            "num_ctx": int(os.environ.get("OLLAMA_NUM_CTX", "4096")),
             "num_gpu": int(os.environ.get("OLLAMA_NUM_GPU", "1")),
             "use_mmap": True,
             "temperature": float(os.environ.get("OLLAMA_TEMPERATURE", "0.1")),
             "top_p": float(os.environ.get("OLLAMA_TOP_P", "0.8")),
-            "num_predict": int(os.environ.get("OLLAMA_NUM_PREDICT", "110")),
+            "num_predict": int(os.environ.get("OLLAMA_NUM_PREDICT", "200")),
             "num_thread": int(os.environ.get("OLLAMA_NUM_THREAD", "8")),
         }
+
+        # ── Gemini API Configuration (Gemma 4, online backend) ─────
+        # ENABLE_GEMINI=false is a hard kill-switch even if LLM_BACKEND=gemini.
+        self.ENABLE_GEMINI = self._parse_bool("ENABLE_GEMINI", True)
+        # Never hardcode the key; set it in .env (which is git-ignored).
+        self.GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
+        # Alternative: gemma-4-26b-a4b-it
+        self.GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemma-4-31b-it").strip()
+        self.GEMINI_TIMEOUT = int(os.environ.get("GEMINI_TIMEOUT", "30"))
 
         # ── Vision Model ─────────────────────────────────────────
         model_path_raw = os.environ.get(
