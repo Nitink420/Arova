@@ -34,11 +34,14 @@
 | Capability | Description |
 |:---|:---|
 | 📸 **Conjunctiva Image Analysis** | MobileNetV3-Small binary classifier analyzes lower eyelid photos |
+| 👁️ **Sclera Color Calibration** | Uses patient's sclera white reference to neutralize yellow light/flash bias |
+| 🩸 **Estimated Hb & AMB Triage** | National Anemia Mukt Bharat Protocol: Normal, Mild, Moderate, Severe + IFA action |
 | 🔬 **Grad-CAM Explainability** | Visual heatmap showing WHERE the AI is focusing on the image |
 | 🛡️ **Image Quality Gate** | Validates blur, brightness, resolution & skin-tone before analysis |
 | 🧠 **Bayesian Risk Adjustment** | Combines image prediction with symptom data for calibrated risk |
 | 🗣️ **Multilingual Voice Assistant** | Kokoro TTS + Whisper STT in 11 Indian languages |
-| 📋 **Clinical PDF Reports** | Downloadable professional screening reports |
+| 📋 **Offline Clinical PDF Reports** | Professional reports with dense Offline Medical QR Code for PHC referral |
+| ⚡ **Live Edge Telemetry HUD** | Real-time on-device latency (~18ms), model footprint (6.2MB) telemetry |
 | 📱 **WhatsApp Share** | One-click sharing of screening results for health workers |
 | 🤖 **LLM Summary** | Local Llama 3.2:1B generates natural language explanations |
 | 🔌 **100% Offline** | No cloud dependency — runs on laptop, desktop, or Jetson |

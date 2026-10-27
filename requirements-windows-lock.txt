@@ -1,0 +1,44 @@
+# AROVA Windows Desktop Locked Dependencies
+# Python: 3.10.x x64 (CPU inference, AMD Ryzen 5 5500U optimized)
+# Generated from verified winning_project environment
+
+python-dotenv==1.2.2
+gradio==6.16.0
+gradio_client==2.5.0
+requests==2.34.2
+urllib3==2.7.0
+httpx==0.28.1
+pydantic==2.13.4
+
+# PyTorch CPU build (No CUDA required)
+torch==2.12.0+cpu
+torchvision==0.27.0+cpu
+
+# Computer Vision & Image Processing
+opencv-python==4.13.0.92
+pillow==12.2.0
+
+# Scientific Computing & Data Analysis
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+scipy==1.15.3
+
+# PDF & QR Reporting
+fpdf2==2.8.7
+qrcode==7.4.2
+
+# Audio, Speech & TTS/STT
+soundfile==0.14.0
+pydub==0.25.1
+openai-whisper==20250625
+kokoro-onnx==0.5.0
+espeakng-loader==0.2.4
+phonemizer-fork==3.3.2
+onnxruntime==1.23.2
+
+# Packaging
+pyinstaller==6.22.3
+pyinstaller-hooks-contrib==2026.8
+pefile==2024.8.26
+pywin32-ctypes==0.2.3
