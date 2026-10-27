@@ -45,6 +45,16 @@
 
 ---
 
+## Built at Hacktoberfest Hack Day Noida (27 Oct 2026)
+
+Existing before Hack Day: <list>
+
+Built during Hack Day: <list>
+
+Models used: <fill later>
+
+---
+
 ## 🏗️ Architecture
 
 ```
@@ -228,7 +238,7 @@ conda activate arova
 pip install -r requirements.txt
 ```
 
-### 3. Setup LLM API Endpoint (AIProff Server / Local)
+### 2. Setup LLM API Endpoint (AIProff Server / Local)
 
 Arova connects directly to the **AIProff Ollama REST API** server via HTTP. No local LLM installation is required if you are using AIProff's server!
 
@@ -247,9 +257,9 @@ ollama run llama3.2:1b
 
 > 🛡️ **Graceful Fallback:** If the API server is unreachable, AROVA automatically switches to localized rule-based summary generation — ensuring 100% crash-free operation.
 
-### 4. NVIDIA Jetson Deployment
+### 3. NVIDIA Jetson Deployment
 For deploying on **NVIDIA Jetson Orin / Nano** over SSH:
-- Follow the step-by-step [JETSON_DEPLOYMENT.md](file:///e:/Arova/JETSON_DEPLOYMENT.md) guide.
+- Follow the step-by-step [JETSON_DEPLOYMENT.md](JETSON_DEPLOYMENT.md) guide.
 - Quick setup: `chmod +x install_jetson.sh && ./install_jetson.sh && ./run_jetson.sh`
 
 
